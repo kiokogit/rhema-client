@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Image from 'next/image';
+import Image from 'next/image';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import Swiper from 'react-id-swiper';
@@ -28,7 +30,7 @@ class MixerArea extends Component {
                             <div className="col-lg-8">
                                 <div className="section-heading mixer-heading">
                                     <div className="section-icon">
-                                        <img src="/images/section-icon.png" alt="section-icon" />
+                                        <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                                     </div>
                                     <h2 className="section__title text__white">Fundraising for the people and causes you
                                         care about</h2>

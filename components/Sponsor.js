@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Sponsor = () => {
     return (
@@ -10,7 +11,7 @@ const Sponsor = () => {
                             <div className="row">
                                 <div className="col-lg-3">
                                     <div className="logo-item logo-item1">
-                                        <img src="/images/client-logo2.png" alt="" />
+                                        <Image width={123} height={24} src="/images/client-logo2.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-9">
@@ -30,7 +31,7 @@ const Sponsor = () => {
                             <div className="row">
                                 <div className="col-lg-3">
                                     <div className="logo-item logo-item2">
-                                        <img src="/images/client-logo2.png" alt="" />
+                                        <Image width={123} height={24} src="/images/client-logo2.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-9">
@@ -50,7 +51,7 @@ const Sponsor = () => {
                             <div className="row">
                                 <div className="col-lg-3">
                                     <div className="logo-item logo-item3">
-                                        <img src="/images/client-logo2.png" alt="" />
+                                        <Image width={123} height={24} src="/images/client-logo2.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-9">
@@ -70,7 +71,7 @@ const Sponsor = () => {
                             <div className="row">
                                 <div className="col-lg-3">
                                     <div className="logo-item logo-item4">
-                                        <img src="/images/client-logo2.png" alt="" />
+                                        <Image width={123} height={24} src="/images/client-logo2.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-9">
@@ -90,7 +91,7 @@ const Sponsor = () => {
                             <div className="row">
                                 <div className="col-lg-3">
                                     <div className="logo-item logo-item5">
-                                        <img src="/images/client-logo2.png" alt="" />
+                                        <Image width={123} height={24} src="/images/client-logo2.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-9">

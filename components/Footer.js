@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Image from 'next/image';
 
 class Footer extends Component {
     constructor(){
@@ -40,7 +41,7 @@ class Footer extends Component {
                                 <div className="col-lg-6 mx-auto text-center">
                                     <div className="section-heading footer-heading">
                                         <div className="section-icon">
-                                            <img src="/images/section-icon.png" alt="section-icon" />
+                                            <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                                         </div>
                                         <h2 className="section__title text__white">Newsletter</h2>
                                         <p className="section__meta">stay updated</p>

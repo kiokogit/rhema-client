@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Image from 'next/image';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
@@ -26,7 +27,7 @@ class DonateArea extends Component {
                             <div className="col-lg-6">
                                 <div className="donate-item-img">
                                     <figure>
-                                        <img src="/images/donate-img.jpg" alt="" />
+                                        <Image width={500} height={664} src="/images/donate-img.jpg" alt="" />
                                     </figure>
                                 </div>
                             </div>
@@ -34,7 +35,7 @@ class DonateArea extends Component {
                                 <div className="donate-item-content">
                                     <div className="section-heading">
                                         <div className="section-icon">
-                                            <img src="/images/section-icon.png" alt="section-icon" />
+                                            <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                                         </div>
                                         <h2 className="section__title">Pure Education for Childrens</h2>
                                         <p className="section__desc">

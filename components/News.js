@@ -1,5 +1,7 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const News = () => {
     return (
@@ -10,7 +12,7 @@ const News = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 <span className="meta__date-date">09 mar, 2019</span>
-                                <img src="/images/blog-img.jpg" alt="service-image" />
+                                <Image width={570} height={354} src="/images/blog-img.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
                                 <h3 className="news__content-title"><Link legacyBehavior href="single-news"><a>A place where start new
@@ -32,7 +34,7 @@ const News = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 <span className="meta__date-date meta__date-date2">07 mar, 2019</span>
-                                <img src="/images/blog-img5.jpg" alt="service-image"/>
+                                <Image width={570} height={354} src="/images/blog-img5.jpg" alt="service-image"/>
                             </div>
                             <div className="news__content">
                                 <h3 className="news__content-title"><Link legacyBehavior href="single-news"><a>We can make a difference
@@ -54,7 +56,7 @@ const News = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 <span className="meta__date-date meta__date-date3">04 mar, 2019</span>
-                                <img src="/images/blog-img6.jpg" alt="service-image" />
+                                <Image width={570} height={354} src="/images/blog-img6.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
                                 <h3 className="news__content-title"><Link legacyBehavior href="single-news"><a>Build school for poor
@@ -76,7 +78,7 @@ const News = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 <span className="meta__date-date meta__date-date4">30 feb, 2019</span>
-                                <img src="/images/blog-img7.jpg" alt="service-image" />
+                                <Image width={570} height={354} src="/images/blog-img7.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
                                 <h3 className="news__content-title"><Link legacyBehavior href="single-news"><a>Learn how access to clean
@@ -98,7 +100,7 @@ const News = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 <span className="meta__date-date">26 feb, 2019</span>
-                                <img src="/images/blog-img8.jpg" alt="service-image" />
+                                <Image width={570} height={354} src="/images/blog-img8.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
                                 <h3 className="news__content-title"><Link legacyBehavior href="single-news"><a>Do something crazy to
@@ -120,7 +122,7 @@ const News = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 <span className="meta__date-date meta__date-date2">20 feb, 2019</span>
-                                <img src="/images/blog-img9.jpg" alt="service-image" />
+                                <Image width={570} height={354} src="/images/blog-img9.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
                                 <h3 className="news__content-title"><Link legacyBehavior href="single-news"><a>Together to help the

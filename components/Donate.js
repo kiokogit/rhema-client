@@ -1,5 +1,7 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Donate = () => {
     return (
@@ -135,7 +137,7 @@ const Donate = () => {
                             <div className="side-widget blog-content">
                                 <div className="blog-item">
                                     <div className="blog-img">
-                                        <img src="/images/img15.jpg" alt="" />
+                                        <Image width={370} height={195} src="/images/img15.jpg" alt="" />
                                     </div>
                                     <div className="blog-inner-content">
                                         <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>They Want to Study</a></Link>
@@ -151,7 +153,7 @@ const Donate = () => {
                             <div className="side-widget">
                                 <div className="author-box">
                                     <div className="author__avatar">
-                                        <img src="/images/author-avatar.jpg" alt="" />
+                                        <Image width={59} height={59} src="/images/author-avatar.jpg" alt="" />
                                     </div>
                                     <div className="author__detail">
                                         <span className="author__meta">created april 11, 2018</span>

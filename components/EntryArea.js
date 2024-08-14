@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Image from 'next/image';
 import ModalVideo from 'react-modal-video';
 
 class EntryArea extends Component {
@@ -20,7 +21,7 @@ class EntryArea extends Component {
                         <div className="col-lg-3">
                             <div className="entry-static-box entry-static-box1">
                                 <div className="section-icon">
-                                    <img src="/images/section-icon.png" alt="section-icon" />
+                                    <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                                 </div>
                                 <h4 className="entry__title">Hunger is stalking the globe</h4>
                             </div>
@@ -30,7 +31,7 @@ class EntryArea extends Component {
                                 <div className="row">
                                     <div className="col-lg-4">
                                         <div className="entry-video-img">
-                                            <img src="/images/entry-video-img.jpg" alt="entry-video-img" />
+                                            <Image width={270} height={153} src="/images/entry-video-img.jpg" alt="entry-video-img" />
                                             <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='PbUxi2Lx8x8' onClose={this.handleModal} />
                                                 <div onClick={this.handleModal} className="mfp-iframe video-play-btn"
                                                    title="Play Video"><i className="fa fa-play"></i>

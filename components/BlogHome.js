@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const BlogHome = () => {
     return (
@@ -8,7 +9,7 @@ const BlogHome = () => {
                     <div className="col-lg-8 mx-auto text-center">
                         <div className="section-heading blog-heading">
                             <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
+                                <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">Recent Blog Posts</h2>
                             <p className="section__meta">news and updates</p>
@@ -20,7 +21,7 @@ const BlogHome = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 <span className="meta__date-date">09 mar, 2019</span>
-                                <img src="/images/blog-img.jpg" alt="service-image" />
+                                <Image width={570} height={354} src="/images/blog-img.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
                                 <h3 className="news__content-title"><a href="/single-news">A place where start new
@@ -43,7 +44,7 @@ const BlogHome = () => {
                             <ul className="third-recent-item">
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><img src="/images/blog-img2.jpg" alt="" /></a>
+                                        <a href="/single-news"><Image width={170} height={137} src="/images/blog-img2.jpg" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
                                         <span>07 mar, 2019</span>
@@ -53,7 +54,7 @@ const BlogHome = () => {
                                 </li>
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><img src="images/blog-img3.jpg" alt="" /></a>
+                                        <a href="/single-news"><Image width={170} height={137} src="images/blog-img3.jpg" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
                                         <span>04 mar, 2019</span>
@@ -62,7 +63,7 @@ const BlogHome = () => {
                                 </li>
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><img src="/images/blog-img4.jpg" alt="" /></a>
+                                        <a href="/single-news"><Image width={170} height={137} src="/images/blog-img4.jpg" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
                                         <span>30 feb, 2019</span>

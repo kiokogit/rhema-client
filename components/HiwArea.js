@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const HiwArea = () => {
     return (
@@ -9,7 +10,7 @@ const HiwArea = () => {
                         <div className="hiw-item">
                             <div className="hiw-item-img-box hiw-bg1">
                                 <figure>
-                                    <img src="/images/hiw-img.jpg" alt="" />
+                                    <Image width={380} height={492} src="/images/hiw-img.jpg" alt="" />
                                         <h3 className="hiw-title">More charity better lives</h3>
                                         <div className="hiw-btn-box">
                                             <a href="#" className="theme-btn">read more</a>
@@ -22,7 +23,7 @@ const HiwArea = () => {
                         <div className="hiw-item">
                             <div className="hiw-item-img-box hiw-bg2">
                                 <figure>
-                                    <img src="/images/hiw-img2.jpg" alt="" />
+                                    <Image width={380} height={492} src="/images/hiw-img2.jpg" alt="" />
                                         <h3 className="hiw-title">How to become volunteer</h3>
                                         <div className="hiw-btn-box">
                                             <a href="#" className="theme-btn">read more</a>
@@ -35,7 +36,7 @@ const HiwArea = () => {
                         <div className="hiw-item">
                             <div className="hiw-item-img-box hiw-bg3">
                                 <figure>
-                                    <img src="/images/hiw-img3.jpg" alt="" />
+                                    <Image width={380} height={492} src="/images/hiw-img3.jpg" alt="" />
                                         <h3 className="hiw-title">Poor children education</h3>
                                         <div className="hiw-btn-box">
                                             <a href="#" className="theme-btn">read more</a>

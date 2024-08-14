@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const CategoryArea = () => {
     return (
@@ -8,7 +9,7 @@ const CategoryArea = () => {
                     <div className="col-lg-8 mx-auto">
                         <div className="section-heading">
                             <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
+                                <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">Browse by Categories</h2>
                             <p className="section__meta">browse cause now</p>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Map from "./Map";
 
 const EventsDetail = () => {
@@ -10,7 +11,7 @@ const EventsDetail = () => {
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
-                                    <img src="/images/img19.jpg" alt="" />
+                                    <Image width={1170} height={514} src="/images/img19.jpg" alt="" />
                             <span className="blog__tag">
                                 <span className="date__num-text">9</span>
                                 <span className="date__mon-text">mar</span>

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Image from 'next/image';
 import ModalVideo from 'react-modal-video';
 
 class MixerAreaThree extends Component {
@@ -21,7 +22,7 @@ class MixerAreaThree extends Component {
                         <div className="col-lg-6">
                             <div className="section-heading">
                                 <div className="section-icon">
-                                    <img src="/images/section-icon.png" alt="section-icon"/>
+                                    <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon"/>
                                 </div>
                                 <h2 className="section__title text__white">We Make a Difference in their Lives</h2>
                                 <p className="section__meta">news and updates</p>
@@ -37,7 +38,7 @@ class MixerAreaThree extends Component {
                         </div>
                         <div className="col-lg-6">
                             <div className="mixer-video-content">
-                                <img src="/images/mixer-img.jpg" alt=""/>
+                                <Image width={570} height={424} src="/images/mixer-img.jpg" alt=""/>
                                 <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='RQu7jpcNUWI'
                                             onClose={() => this.setState({isOpen: false})}/>
                                 <div onClick={this.openModal} className="mfp-iframe video-play-btn" title="Play Video">

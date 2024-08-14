@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 class NavTwo extends Component {
@@ -89,7 +90,7 @@ class NavTwo extends Component {
                                     <div className="ostion-logo">
                                         <Link legacyBehavior href="/">
                                             <a href="/">
-                                                <img src="/images/rhema-logo-3.png" alt="Rhema logo" title="Rhema" />
+                                                <Image width={150} height={50} src="/images/rhema-logo-3.png" alt="Rhema logo" title="Rhema" />
                                             </a>
                                         </Link>
                                     </div>

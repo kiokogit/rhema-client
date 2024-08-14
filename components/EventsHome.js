@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const EventsHome = () => {
     return (
@@ -8,7 +9,7 @@ const EventsHome = () => {
                     <div className="col-lg-8 mx-auto">
                         <div className="section-heading blog-heading text-center">
                             <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
+                                <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">Upcoming Events</h2>
                             <p className="section__meta">help us now</p>
@@ -20,7 +21,7 @@ const EventsHome = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item1">
                                 <div className="blog-img">
-                                    <img src="/images/img7.jpg" alt="" />
+                                    <Image width={370} height={238} src="/images/img7.jpg" alt="" />
                             <span className="blog__tag blog__tag1">
                                 <span className="date__num-text">30</span>
                                 <span className="date__mon-text">Aug</span>
@@ -40,7 +41,7 @@ const EventsHome = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item2">
                                 <div className="blog-img">
-                                    <img src="/images/img8.jpg" alt="" />
+                                    <Image width={370} height={238} src="/images/img8.jpg" alt="" />
                             <span className="blog__tag blog__tag2">
                                 <span className="date__num-text">29</span>
                                 <span className="date__mon-text">Sep</span>
@@ -60,7 +61,7 @@ const EventsHome = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item3">
                                 <div className="blog-img">
-                                    <img src="/images/img9.jpg" alt="" />
+                                    <Image width={370} height={238} src="/images/img9.jpg" alt="" />
                             <span className="blog__tag blog__tag3">
                                 <span className="date__num-text">12</span>
                                 <span className="date__mon-text">Dec</span>

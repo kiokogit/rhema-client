@@ -1,25 +1,26 @@
 import React from 'react';
+import Image from 'next/image';
 
 const ServiceArea = () => {
     return (
         <section className="service-area text-center">
-            <img src="/images/heart-icon1.png" alt="" className="heart-icon heart-icon-1" />
-            <img src="/images/heart-icon2.png" alt="" className="heart-icon heart-icon-2" />
-            <img src="/images/heart-icon3.png" alt="" className="heart-icon heart-icon-3" />
-            <img src="/images/heart-icon4.png" alt="" className="heart-icon heart-icon-4" />
-            <img src="/images/heart-icon5.png" alt="" className="heart-icon heart-icon-5" />
-            <img src="/images/heart-icon6.png" alt="" className="heart-icon heart-icon-6" />
-            <img src="/images/heart-icon7.png" alt="" className="heart-icon heart-icon-7" />
-            <img src="/images/heart-icon8.png" alt="" className="heart-icon heart-icon-8" />
-            <img src="/images/heart-icon9.png" alt="" className="heart-icon heart-icon-9" />
-            <img src="/images/heart-icon10.png" alt="" className="heart-icon heart-icon-10" />
-            <img src="/images/heart-icon11.png" alt="" className="heart-icon heart-icon-11" />
+            <Image width={31} height={30} src="/images/heart-icon1.png" alt="" className="heart-icon heart-icon-1" />
+            <Image width={87} height={140} src="/images/heart-icon2.png" alt="" className="heart-icon heart-icon-2" />
+            <Image width={34} height={31} src="/images/heart-icon3.png" alt="" className="heart-icon heart-icon-3" />
+            <Image width={14} height={15} src="/images/heart-icon4.png" alt="" className="heart-icon heart-icon-4" />
+            <Image width={93} height={88} src="/images/heart-icon5.png" alt="" className="heart-icon heart-icon-5" />
+            <Image width={20} height={18} src="/images/heart-icon6.png" alt="" className="heart-icon heart-icon-6" />
+            <Image width={14} height={15} src="/images/heart-icon7.png" alt="" className="heart-icon heart-icon-7" />
+            <Image width={83} height={79} src="/images/heart-icon8.png" alt="" className="heart-icon heart-icon-8" />
+            <Image width={20} height={18} src="/images/heart-icon9.png" alt="" className="heart-icon heart-icon-9" />
+            <Image width={32} height={30} src="/images/heart-icon10.png" alt="" className="heart-icon heart-icon-10" />
+            <Image width={47} height={53} src="/images/heart-icon11.png" alt="" className="heart-icon heart-icon-11" />
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 mx-auto">
                         <div className="section-heading service-heading">
                             <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
+                                <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">We Believe that
                                 We can Reach more Lives with you</h2>

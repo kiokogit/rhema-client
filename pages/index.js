@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Layout from "../components/Layout";
 import NavTwo from "../components/NavBar";
 import Footer from "../components/Footer";

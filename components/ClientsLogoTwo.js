@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Swiper from 'react-id-swiper';
 import 'swiper/css/swiper.css';
 
@@ -42,22 +43,22 @@ const ClientsLogoTwo = () => {
                         <div className="client-logo">
                             <Swiper {...params}>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    <Image width={123} height={24} src="/images/client-logo.png" alt="brand image" />
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    <Image width={123} height={24} src="/images/client-logo.png" alt="brand image" />
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    <Image width={123} height={24} src="/images/client-logo.png" alt="brand image" />
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    <Image width={123} height={24} src="/images/client-logo.png" alt="brand image" />
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    <Image width={123} height={24} src="/images/client-logo.png" alt="brand image" />
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    <Image width={123} height={24} src="/images/client-logo.png" alt="brand image" />
                                 </div>
                             </Swiper>
                         </div>

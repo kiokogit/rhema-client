@@ -1,5 +1,7 @@
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Causes = () => {
     return (
@@ -10,7 +12,7 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item1">
                                 <div className="blog-img">
-                                    <img src="/images/img1.jpg" alt="" />
+                                    <Image width={370} height={317} src="/images/img1.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>Save Poor Childrens</a></Link>
@@ -29,7 +31,7 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item2">
                                 <div className="blog-img">
-                                    <img src="/images/img2.jpg" alt="" />
+                                    <Image width={370} height={317} src="/images/img2.jpg" alt="" />
                                         <span className="blog__tag"><i className="fa fa-flash"></i> trending</span>
                                 </div>
                                 <div className="blog-inner-content">
@@ -48,7 +50,7 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item3">
                                 <div className="blog-img">
-                                    <img src="/images/img3.jpg" alt="" />
+                                    <Image width={370} height={317} src="/images/img3.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>Healthy Food for All</a></Link>
@@ -67,7 +69,7 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item4">
                                 <div className="blog-img">
-                                    <img src="/images/img10.jpg" alt="" />
+                                    <Image width={370} height={317} src="/images/img10.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>Need Educations</a></Link></h3>
@@ -85,7 +87,7 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item1">
                                 <div className="blog-img">
-                                    <img src="/images/img2.jpg" alt="" />
+                                    <Image width={370} height={317} src="/images/img2.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>Clean Water Issues</a></Link></h3>
@@ -103,7 +105,7 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item2">
                                 <div className="blog-img">
-                                    <img src="/images/img11.jpg" alt="" />
+                                    <Image width={370} height={317} src="/images/img11.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>Help the Eco System</a></Link>

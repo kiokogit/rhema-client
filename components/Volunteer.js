@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Volunteer = () => {
     return (
@@ -8,7 +9,7 @@ const Volunteer = () => {
                     <div className="col-lg-8 mx-auto">
                         <div className="section-heading text-center">
                             <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
+                                <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">Register Now</h2>
                             <p className="section__meta">join us now</p>
@@ -19,7 +20,7 @@ const Volunteer = () => {
                     <div className="col-lg-6">
                         <div className="form-shared-content">
                             <div className="form-img">
-                                <img src="/images/form-img.jpg" alt="" />
+                                <Image width={570} height={272} src="/images/form-img.jpg" alt="" />
                             </div>
                             <div className="form-content">
                                 <h3 className="form__title">Requirements</h3>

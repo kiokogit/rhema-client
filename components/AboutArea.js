@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const AboutArea = () => {
     return (
@@ -7,19 +8,19 @@ const AboutArea = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="about-large-img">
-                            <img src="/images/about-img.jpg" alt="" />
+                            <Image width={1170} height={386} src="/images/about-img.jpg" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-5">
                         <div className="about-semi-img">
-                            <img src="/images/about-img2.jpg" alt="" />
+                            <Image width={400} height={349} src="/images/about-img2.jpg" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-7">
                         <div className="about-heading">
                             <div className="section-heading">
                                 <div className="section-icon">
-                                    <img src="/images/section-icon.png" alt="section-icon" />
+                                    <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                                 </div>
                                 <h2 className="section__title">Discover About Oxpitan</h2>
                                 <p className="section__meta">learn about non profit agency</p>

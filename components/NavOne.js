@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 
 class NavOne extends Component {
     constructor(){
@@ -91,7 +93,7 @@ class NavOne extends Component {
                                         <div className="ostion-logo">
                                             <Link legacyBehavior href="">
                                                 <a>
-                                                    <img src="/images/lodgo.png" alt="Rhema Logo" title="Rhema" />
+                                                    <Image width={166} height={50} src="/images/logo.png" alt="Rhema Logo" title="Rhema" />
                                                 </a>
                                             </Link>
                                         </div>

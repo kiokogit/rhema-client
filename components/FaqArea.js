@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Image from 'next/image';
 
 class FaqArea extends Component {
 
@@ -16,13 +17,13 @@ class FaqArea extends Component {
                         <div className="col-lg-6">
                             <div className="section-heading">
                                 <div className="section-icon">
-                                    <img src="/images/section-icon.png" alt="section-icon" />
+                                    <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                                 </div>
                                 <h2 className="section__title">Have any Question?</h2>
                                 <p className="section__meta">frequently asked questions</p>
                             </div>
                             <div className="faq-img-box">
-                                <img src="/images/faq-img.jpg" alt="" />
+                                <Image width={530} height={278} src="/images/faq-img.jpg" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6">

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Layout from "../components/Layout";
 import Events from "../components/Events";
 

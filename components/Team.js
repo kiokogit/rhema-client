@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Team = () => {
     return (
@@ -8,7 +9,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item1">
                             <div className="team__img">
-                                <img src="/images/team.jpg" alt="team image" />
+                                <Image width={270} height={295} src="/images/team.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
@@ -27,7 +28,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item2">
                             <div className="team__img">
-                                <img src="/images/team2.jpg" alt="team image" />
+                                <Image width={270} height={295} src="/images/team2.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
@@ -46,7 +47,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item3">
                             <div className="team__img">
-                                <img src="/images/team3.jpg" alt="team image" />
+                                <Image width={270} height={295} src="/images/team3.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
@@ -65,7 +66,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item4">
                             <div className="team__img">
-                                <img src="/images/team4.jpg" alt="team image" />
+                                <Image width={270} height={295} src="/images/team4.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
@@ -84,7 +85,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item1">
                             <div className="team__img">
-                                <img src="/images/team5.jpg" alt="team image" />
+                                <Image width={270} height={295} src="/images/team5.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
@@ -103,7 +104,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item2">
                             <div className="team__img">
-                                <img src="/images/team6.jpg" alt="team image" />
+                                <Image width={270} height={295} src="/images/team6.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
@@ -122,7 +123,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item3">
                             <div className="team__img">
-                                <img src="/images/team7.jpg" alt="team image" />
+                                <Image width={270} height={295} src="/images/team7.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
@@ -141,7 +142,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item4">
                             <div className="team__img">
-                                <img src="/images/team8.jpg" alt="team image" />
+                                <Image width={270} height={295} src="/images/team8.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Pricing = () => {
     return (
@@ -8,14 +9,14 @@ const Pricing = () => {
                     <div className="col-lg-5">
                         <div className="section-heading">
                             <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
+                                <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">Pay us Monthly</h2>
                             <p className="section__meta">help us now</p>
                             <div className="package-content">
                                 <div className="package__img">
-                                    <img src="/images/package-small-img.jpg" alt="" />
-                                        <img src="/images/package-small-img2.jpg" alt="" />
+                                    <Image width={210} height={115} src="/images/package-small-img.jpg" alt="" />
+                                        <Image width={210} height={115} src="/images/package-small-img2.jpg" alt="" />
                                 </div>
                                 <p className="package__desc">
                                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed
