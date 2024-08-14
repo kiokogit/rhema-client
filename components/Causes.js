@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const Causes = () => {
     return (
@@ -15,14 +14,14 @@ const Causes = () => {
                                     <Image width={370} height={317} src="/images/img1.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>Save Poor Childrens</a></Link>
+                                    <h3 className="blog__title"><Link href="causes-detail">Save Poor Childrens</Link>
                                     </h3>
                                     <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
-                                    <Link legacyBehavior href="donate"><a className="theme-btn">donate now</a></Link>
+                                    <Link href="donate"> <div className="theme-btn" >donate now </div></Link>
                                 </div>
                             </div>
                         </div>
@@ -35,13 +34,13 @@ const Causes = () => {
                                         <span className="blog__tag"><i className="fa fa-flash"></i> trending</span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>They Want to Study</a></Link></h3>
+                                    <h3 className="blog__title"><Link href="causes-detail"><div>They Want to Study</div></Link></h3>
                                     <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
-                                    <Link legacyBehavior href="donate"><a className="theme-btn">donate now</a></Link>
+                                    <Link href="donate"><div className="theme-btn">donate now</div></Link>
                                 </div>
                             </div>
                         </div>
@@ -53,14 +52,14 @@ const Causes = () => {
                                     <Image width={370} height={317} src="/images/img3.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>Healthy Food for All</a></Link>
+                                    <h3 className="blog__title"><Link href="causes-detail"><div>Healthy Food for All</div></Link>
                                     </h3>
                                     <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
-                                    <Link legacyBehavior href="donate"><a className="theme-btn">donate now</a></Link>
+                                    <Link href="donate"><div className="theme-btn">donate now</div></Link>
                                 </div>
                             </div>
                         </div>
@@ -72,13 +71,13 @@ const Causes = () => {
                                     <Image width={370} height={317} src="/images/img10.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>Need Educations</a></Link></h3>
+                                    <h3 className="blog__title"><Link href="causes-detail"><div>Need Educations</div></Link></h3>
                                     <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
-                                    <Link legacyBehavior href="donate"><a className="theme-btn">donate now</a></Link>
+                                    <Link href="donate"><div className="theme-btn">donate now</div></Link>
                                 </div>
                             </div>
                         </div>
@@ -90,13 +89,13 @@ const Causes = () => {
                                     <Image width={370} height={317} src="/images/img2.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>Clean Water Issues</a></Link></h3>
+                                    <h3 className="blog__title"><Link href="causes-detail"><div>Clean Water Issues</div></Link></h3>
                                     <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
-                                    <Link legacyBehavior href="donate"><a className="theme-btn">donate now</a></Link>
+                                    <Link href="donate"><div className="theme-btn">donate now</div></Link>
                                 </div>
                             </div>
                         </div>
@@ -108,14 +107,14 @@ const Causes = () => {
                                     <Image width={370} height={317} src="/images/img11.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>Help the Eco System</a></Link>
+                                    <h3 className="blog__title"><Link href="causes-detail"><div>Help the Eco System</div></Link>
                                     </h3>
                                     <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
-                                    <Link legacyBehavior href="donate"><a className="theme-btn">donate now</a></Link>
+                                    <Link href="donate"><div className="theme-btn">donate now</div></Link>
                                 </div>
                             </div>
                         </div>

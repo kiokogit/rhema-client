@@ -15,7 +15,7 @@ const MixerAreaTwo = () => {
                             </div>
                             <h2 className="section__title text__white">Our fingerprints on the lives we touch never
                                 fade</h2>
-                            <Link legacyBehavior href="donate"><a className="theme-btn">start donation</a></Link>
+                            <Link href="donate"><div className="theme-btn">start donation</div></Link>
                         </div>
                     </div>
                 </div>

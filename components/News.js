@@ -15,8 +15,8 @@ const News = () => {
                                 <Image width={570} height={354} src="/images/blog-img.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
-                                <h3 className="news__content-title"><Link legacyBehavior href="single-news"><a>A place where start new
-                                    life with peace</a></Link></h3>
+                                <h3 className="news__content-title"><Link href="single-news"><div>A place where start new
+                                    life with peace</div></Link></h3>
                                 <ul className="news__content-list">
                                     <li className="news__content-active__dot"><a href="#">mike hardson</a></li>
                                     <li><a href="#">3 comments</a></li>
@@ -26,7 +26,7 @@ const News = () => {
                                     sollicitud. Lorem ipsum dolor sit amet,
                                     consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
                                 </p>
-                                <Link legacyBehavior href="single-news"><a className="theme-btn">read more</a></Link>
+                                <Link href="single-news"><div className="theme-btn">read more</div></Link>
                             </div>
                         </div>
                     </div>
@@ -37,8 +37,8 @@ const News = () => {
                                 <Image width={570} height={354} src="/images/blog-img5.jpg" alt="service-image"/>
                             </div>
                             <div className="news__content">
-                                <h3 className="news__content-title"><Link legacyBehavior href="single-news"><a>We can make a difference
-                                    in families lives </a></Link></h3>
+                                <h3 className="news__content-title"><Link href="single-news"><div>We can make a difference
+                                    in families lives </div></Link></h3>
                                 <ul className="news__content-list">
                                     <li className="news__content-active__dot"><a href="#">jessica brown</a></li>
                                     <li><a href="#">2 comments</a></li>
@@ -48,7 +48,7 @@ const News = () => {
                                     sollicitud. Lorem ipsum dolor sit amet,
                                     consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
                                 </p>
-                                <Link legacyBehavior href="single-news"><a className="theme-btn">read more</a></Link>
+                                <Link href="single-news"><div className="theme-btn">read more</div></Link>
                             </div>
                         </div>
                     </div>
@@ -59,8 +59,8 @@ const News = () => {
                                 <Image width={570} height={354} src="/images/blog-img6.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
-                                <h3 className="news__content-title"><Link legacyBehavior href="single-news"><a>Build school for poor
-                                    childrens</a></Link></h3>
+                                <h3 className="news__content-title"><Link href="single-news"><div>Build school for poor
+                                    childrens</div></Link></h3>
                                 <ul className="news__content-list">
                                     <li className="news__content-active__dot"><a href="#">john smith</a></li>
                                     <li><a href="#">0 comments</a></li>
@@ -70,7 +70,7 @@ const News = () => {
                                     sollicitud. Lorem ipsum dolor sit amet,
                                     consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
                                 </p>
-                                <Link legacyBehavior href="single-news"><a className="theme-btn">read more</a></Link>
+                                <Link href="single-news"><div className="theme-btn">read more</div></Link>
                             </div>
                         </div>
                     </div>
@@ -81,8 +81,8 @@ const News = () => {
                                 <Image width={570} height={354} src="/images/blog-img7.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
-                                <h3 className="news__content-title"><Link legacyBehavior href="single-news"><a>Learn how access to clean
-                                    water</a></Link></h3>
+                                <h3 className="news__content-title"><Link href="single-news"><div>Learn how access to clean
+                                    water</div></Link></h3>
                                 <ul className="news__content-list">
                                     <li className="news__content-active__dot"><a href="#">kevin hart</a></li>
                                     <li><a href="#">4 comments</a></li>
@@ -92,7 +92,7 @@ const News = () => {
                                     sollicitud. Lorem ipsum dolor sit amet,
                                     consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
                                 </p>
-                                <Link legacyBehavior href="single-news"><a className="theme-btn">read more</a></Link>
+                                <Link href="single-news"><div className="theme-btn">read more</div></Link>
                             </div>
                         </div>
                     </div>
@@ -103,8 +103,8 @@ const News = () => {
                                 <Image width={570} height={354} src="/images/blog-img8.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
-                                <h3 className="news__content-title"><Link legacyBehavior href="single-news"><a>Do something crazy to
-                                    raise money</a></Link></h3>
+                                <h3 className="news__content-title"><Link href="single-news"><div>Do something crazy to
+                                    raise money</div></Link></h3>
                                 <ul className="news__content-list">
                                     <li className="news__content-active__dot"><a href="#">christine eve</a></li>
                                     <li><a href="#">2 comments</a></li>
@@ -114,7 +114,7 @@ const News = () => {
                                     sollicitud. Lorem ipsum dolor sit amet,
                                     consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
                                 </p>
-                                <Link legacyBehavior href="single-news"><a className="theme-btn">read more</a></Link>
+                                <Link href="single-news"><div className="theme-btn">read more</div></Link>
                             </div>
                         </div>
                     </div>
@@ -125,8 +125,8 @@ const News = () => {
                                 <Image width={570} height={354} src="/images/blog-img9.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
-                                <h3 className="news__content-title"><Link legacyBehavior href="single-news"><a>Together to help the
-                                    world better</a></Link></h3>
+                                <h3 className="news__content-title"><Link href="single-news"><div>Together to help the
+                                    world better</div></Link></h3>
                                 <ul className="news__content-list">
                                     <li className="news__content-active__dot"><a href="#">mike hardson</a></li>
                                     <li><a href="#">0 comments</a></li>
@@ -136,7 +136,7 @@ const News = () => {
                                     sollicitud. Lorem ipsum dolor sit amet,
                                     consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
                                 </p>
-                                <Link legacyBehavior href="single-news"><a className="theme-btn">read more</a></Link>
+                                <Link href="single-news"><div className="theme-btn">read more</div></Link>
                             </div>
                         </div>
                     </div>

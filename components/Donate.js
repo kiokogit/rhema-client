@@ -140,7 +140,7 @@ const Donate = () => {
                                         <Image width={370} height={195} src="/images/img15.jpg" alt="" />
                                     </div>
                                     <div className="blog-inner-content">
-                                        <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>They Want to Study</a></Link>
+                                        <h3 className="blog__title"><Link href="causes-detail"><div>They Want to Study</div></Link>
                                         </h3>
                                         <ul className="blog__list">
                                             <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>

@@ -91,14 +91,14 @@ class NavOne extends Component {
                                 <div className="col-lg-5 col-sm-5 site-branding">
                                     <div className="logo-action d-flex align-items-center">
                                         <div className="ostion-logo">
-                                            <Link legacyBehavior href="">
+                                            <Link href="">
                                                 <a>
                                                     <Image width={166} height={50} src="/images/logo.png" alt="Rhema Logo" title="Rhema" />
                                                 </a>
                                             </Link>
                                         </div>
                                         <div className="header-btn ml-auto">
-                                            <Link legacyBehavior href="donate">
+                                            <Link href="donate">
                                                 <a className="theme-btn">donate now</a>
                                             </Link>
                                         </div>
@@ -110,41 +110,41 @@ class NavOne extends Component {
                                             <div className="navigation-top">
                                                 <nav className="main-navigation">
                                                     <ul>
-                                                        <li className="active"><Link legacyBehavior href="/"><a>Home</a></Link>
+                                                        <li className="active"><Link href="/"><div>Home</div></Link>
                                                             {/* <ul className="dropdown-menu-item">
-                                                                <li><Link legacyBehavior href=""><a>Home 1</a></Link></li>
-                                                                <li><Link legacyBehavior href="index2"><a>Home 2</a></Link></li>
+                                                                <li><Link href=""><div>Home 1</div></Link></li>
+                                                                <li><Link href="index2"><div>Home 2</div></Link></li>
                                                             </ul> */}
                                                         </li>
                                                         <li><a href="#">causes</a>
                                                             <ul className="dropdown-menu-item">
-                                                                <li><Link legacyBehavior href="causes"><a>causes</a></Link></li>
-                                                                {/* <li><Link legacyBehavior href="causes-detail"><a>causes detail</a></Link></li> */}
-                                                                <li><Link legacyBehavior href="donate"><a>donate now</a></Link></li>
+                                                                <li><Link href="causes"><div>causes</div></Link></li>
+                                                                {/* <li><Link href="causes-detail"><div>causes detail</div></Link></li> */}
+                                                                <li><Link href="donate"><div>donate now</div></Link></li>
                                                             </ul>
                                                         </li>
                                                         <li><a href="events">events</a>
                                                             {/* <ul className="dropdown-menu-item">
-                                                                <li><Link legacyBehavior href="events"><a>events</a></Link></li>
-                                                                <li><Link legacyBehavior href="events-detail"><a>events detail</a></Link></li>
+                                                                <li><Link href="events"><div>events</div></Link></li>
+                                                                <li><Link href="events-detail"><div>events detail</div></Link></li>
                                                             </ul> */}
                                                         </li>
                                                         <li><a href="news">news</a>
                                                             {/* <ul className="dropdown-menu-item">
-                                                                <li><Link legacyBehavior href="news"><a>news</a></Link></li>
-                                                                <li><Link legacyBehavior href="single-news"><a>news detail</a></Link></li>
+                                                                <li><Link href="news"><div>news</div></Link></li>
+                                                                <li><Link href="single-news"><div>news detail</div></Link></li>
                                                             </ul> */}
                                                         </li>
                                                         <li><a href="#">rhema</a>
                                                             <ul className="dropdown-menu-item">
-                                                                <li><Link legacyBehavior href="about"><a>about</a></Link></li>
-                                                                <li><Link legacyBehavior href="gallery"><a>gallery</a></Link></li>
-                                                                <li><Link legacyBehavior href="volunteer"><a>become a volunteer</a></Link></li>
-                                                                <li><Link legacyBehavior href="team"><a>our team</a></Link></li>
-                                                                <li><Link legacyBehavior href="sponsor"><a>sponsors</a></Link></li>
+                                                                <li><Link href="about"><div>about</div></Link></li>
+                                                                <li><Link href="gallery"><div>gallery</div></Link></li>
+                                                                <li><Link href="volunteer"><div>become a volunteer</div></Link></li>
+                                                                <li><Link href="team"><div>our team</div></Link></li>
+                                                                <li><Link href="sponsor"><div>sponsors</div></Link></li>
                                                             </ul>
                                                         </li>
-                                                        <li><Link legacyBehavior href="contact"><a>contact</a></Link></li>
+                                                        <li><Link href="contact"><div>contact</div></Link></li>
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -166,43 +166,43 @@ class NavOne extends Component {
                                 <li className="sidenav__item"><a href="/index2">home</a>
                                     {/* <span className="menu-plus-icon"></span>
                                     <ul className="side-sub-menu">
-                                        <li><Link legacyBehavior href=""><a>Home 1</a></Link></li>
-                                        <li><Link legacyBehavior href="index2"><a>Home 2</a></Link></li>
+                                        <li><Link href=""><div>Home 1</div></Link></li>
+                                        <li><Link href="index2"><div>Home 2</div></Link></li>
                                     </ul> */}
                                 </li>
                                 <li className="sidenav__item"><a href="#">causes</a>
                                     <span className="menu-plus-icon"></span>
                                     <ul className="side-sub-menu">
-                                        <li><Link legacyBehavior href="causes"><a>causes</a></Link></li>
-                                        {/* <li><Link legacyBehavior href="causes-detail"><a>causes detail</a></Link></li> */}
-                                        <li><Link legacyBehavior href="donate"><a>donate now</a></Link></li>
+                                        <li><Link href="causes"><div>causes</div></Link></li>
+                                        {/* <li><Link href="causes-detail"><div>causes detail</div></Link></li> */}
+                                        <li><Link href="donate"><div>donate now</div></Link></li>
                                     </ul>
                                 </li>
                                 <li className="sidenav__item"><a href="events">event</a>
                                     {/* <span className="menu-plus-icon"></span>
                                     <ul className="side-sub-menu">
-                                        <li><Link legacyBehavior href="events"><a>events</a></Link></li>
-                                        <li><Link legacyBehavior href="events-detail"><a>events detail</a></Link></li>
+                                        <li><Link href="events"><div>events</div></Link></li>
+                                        <li><Link href="events-detail"><div>events detail</div></Link></li>
                                     </ul> */}
                                 </li>
                                 <li className="sidenav__item"><a href="news">news</a>
                                     {/* <span className="menu-plus-icon"></span>
                                     <ul className="side-sub-menu">
-                                        <li><Link legacyBehavior href="news"><a>news</a></Link></li>
-                                        <li><Link legacyBehavior href="single-news"><a>news detail</a></Link></li>
+                                        <li><Link href="news"><div>news</div></Link></li>
+                                        <li><Link href="single-news"><div>news detail</div></Link></li>
                                     </ul> */}
                                 </li>
                                 <li className="sidenav__item"><a href="#">rhema</a>
                                     <span className="menu-plus-icon"></span>
                                     <ul className="side-sub-menu">
-                                        <li><Link legacyBehavior href="about"><a>about</a></Link></li>
-                                        <li><Link legacyBehavior href="gallery"><a>gallery</a></Link></li>
-                                        <li><Link legacyBehavior href="volunteer"><a>become a volunteer</a></Link></li>
-                                        <li><Link legacyBehavior href="team"><a>our team</a></Link></li>
-                                        <li><Link legacyBehavior href="sponsor"><a>sponsors</a></Link></li>
+                                        <li><Link href="about"><div>about</div></Link></li>
+                                        <li><Link href="gallery"><div>gallery</div></Link></li>
+                                        <li><Link href="volunteer"><div>become a volunteer</div></Link></li>
+                                        <li><Link href="team"><div>our team</div></Link></li>
+                                        <li><Link href="sponsor"><div>sponsors</div></Link></li>
                                     </ul>
                                 </li>
-                                <li className="sidenav__item"><Link legacyBehavior href="contact"><a>contact</a></Link></li>
+                                <li className="sidenav__item"><Link href="contact"><div>contact</div></Link></li>
                             </ul>
                             <ul className="side-social">
                                 <li><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -211,7 +211,7 @@ class NavOne extends Component {
                                 <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
                             </ul>
                             <div className="side-btn">
-                                <Link legacyBehavior href="donate"><a className="theme-btn">donate now</a></Link>
+                                <Link href="donate"><div className="theme-btn">donate now</div></Link>
                             </div>
                         </div>
                     </div>

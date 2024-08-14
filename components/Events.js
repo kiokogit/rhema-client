@@ -19,7 +19,7 @@ const Events = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="events-detail"><a>Save the planets</a></Link></h3>
+                                    <h3 className="blog__title"><Link href="events-detail"><div>Save the planets</div></Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 2:00pm</li>
                                         <li>San marcos</li>
@@ -39,7 +39,7 @@ const Events = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="events-detail"><a>Play for the world</a></Link></h3>
+                                    <h3 className="blog__title"><Link href="events-detail"><div>Play for the world</div></Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 2:00pm</li>
                                         <li>San marcos</li>
@@ -59,7 +59,7 @@ const Events = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="events-detail"><a>Water for charity</a></Link></h3>
+                                    <h3 className="blog__title"><Link href="events-detail"><div>Water for charity</div></Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 2:00pm</li>
                                         <li>San marcos</li>
@@ -79,7 +79,7 @@ const Events = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="events-detail"><a>Help for education</a></Link></h3>
+                                    <h3 className="blog__title"><Link href="events-detail"><div>Help for education</div></Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 2:00pm</li>
                                         <li>San marcos</li>
@@ -99,7 +99,7 @@ const Events = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="events-detail"><a>Protect eco system</a></Link></h3>
+                                    <h3 className="blog__title"><Link href="events-detail"><div>Protect eco system</div></Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 2:00pm</li>
                                         <li>San marcos</li>
@@ -119,7 +119,7 @@ const Events = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="events-detail"><a>Fight for right cause</a></Link>
+                                    <h3 className="blog__title"><Link href="events-detail"><div>Fight for right cause</div></Link>
                                     </h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 2:00pm</li>

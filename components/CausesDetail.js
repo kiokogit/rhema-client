@@ -16,7 +16,7 @@ const CausesDetail = () => {
                                 </div>
                                 <div className="blog-inner-content">
                                     <div className="inner-causes-box">
-                                        <h3 className="blog__title"><Link legacyBehavior href="causes-detail"><a>Save Poor Childrens</a></Link>
+                                        <h3 className="blog__title"><Link href="causes-detail"><div>Save Poor Childrens</div></Link>
                                         </h3>
                                         <ul className="blog__list">
                                             <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
@@ -24,7 +24,7 @@ const CausesDetail = () => {
                                         </ul>
                                     </div>
                                     <div className="inner-causes-btn">
-                                        <Link legacyBehavior href="donate"><a className="theme-btn">donate now</a></Link>
+                                        <Link href="donate"><div className="theme-btn">donate now</div></Link>
                                     </div>
                                 </div>
                                 <div className="blog-inner-content-2">
