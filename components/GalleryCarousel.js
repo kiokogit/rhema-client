@@ -7,18 +7,18 @@ import Link from 'next/link';
 
 const GalleryCarousel = () => {
 
-    useEffect(() => {
-        const lightbox = GLightbox({
-            touchNavigation: true,
-            loop: true,
-            autoplayVideos: true,
-            beforeSlideLoad: (slide, data) => {
-                // Need to execute a script in the slide?
-                // You can do that here...
-            }
-        });
+    // useEffect(() => {
+    //     const lightbox = GLightbox({
+    //         touchNavigation: true,
+    //         loop: true,
+    //         autoplayVideos: true,
+    //         beforeSlideLoad: (slide, data) => {
+    //             // Need to execute a script in the slide?
+    //             // You can do that here...
+    //         }
+    //     });
 
-    });
+    // });
 
     const params = {
         slidesPerView : 3,

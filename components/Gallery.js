@@ -5,18 +5,18 @@ import Image from 'next/image';
 
 const Gallery = () => {
 
-    useEffect(() => {
-        const lightbox = GLightbox({
-            touchNavigation: true,
-            loop: true,
-            autoplayVideos: true,
-            beforeSlideLoad: (slide, data) => {
-                // Need to execute a script in the slide?
-                // You can do that here...
-            }
-        });
+    // useEffect(() => {
+    //     const lightbox = GLightbox({
+    //         touchNavigation: true,
+    //         loop: true,
+    //         autoplayVideos: true,
+    //         beforeSlideLoad: (slide, data) => {
+    //             // Need to execute a script in the slide?
+    //             // You can do that here...
+    //         }
+    //     });
 
-    });
+    // });
     return (
         <section className="gallery-area2">
             <div className="container">
