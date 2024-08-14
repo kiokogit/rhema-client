@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Image from 'next/image';
+
 
 const Donate = () => {
     return (
@@ -157,7 +157,7 @@ const Donate = () => {
                                     </div>
                                     <div className="author__detail">
                                         <span className="author__meta">created april 11, 2018</span>
-                                        <h4 className="author__title">Organizer: <a href="#">Jessica Smith</a></h4>
+                                        <h4 className="author__title">Organizer: <Link href="#">Jessica Smith</Link></h4>
                                         <ul className="author__list">
                                             <li><i className="fa fa-tag"></i> Education</li>
                                             <li><i className="fa fa-map-marker"></i> Wrightwood, Canada</li>

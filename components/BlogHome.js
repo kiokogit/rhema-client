@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const BlogHome = () => {
     return (
@@ -24,18 +25,18 @@ const BlogHome = () => {
                                 <Image width={570} height={354} src="/images/blog-img.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
-                                <h3 className="news__content-title"><a href="/single-news">A place where start new
-                                    life with peace</a></h3>
+                                <h3 className="news__content-title"><Link href="/single-news">A place where start new
+                                    life with peace</Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">mike hardson</a></li>
-                                    <li><a href="#">3 comments</a></li>
+                                    <li className="news__content-active__dot"><Link href="#">mike hardson</Link></li>
+                                    <li><Link href="#">3 comments</Link></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
                                     sollicitud. Lorem ipsum dolor sit amet,
                                     consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
                                 </p>
-                                <a href="single-news" className="theme-btn">read more</a>
+                                <Link href="single-news" className="theme-btn">read more</Link>
                             </div>
                         </div>
                     </div>
@@ -44,31 +45,31 @@ const BlogHome = () => {
                             <ul className="third-recent-item">
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><Image width={170} height={137} src="/images/blog-img2.jpg" alt="" /></a>
+                                        <Link href="/single-news"><Image width={170} height={137} src="/images/blog-img2.jpg" alt="" /></Link>
                                     </div>
                                     <div className="recent__content">
                                         <span>07 mar, 2019</span>
-                                        <h4><a href="single-news.html">Let’s together provide them a healthy food</a>
+                                        <h4><Link href="single-news.html">Let’s together provide them a healthy food</Link>
                                         </h4>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><Image width={170} height={137} src="images/blog-img3.jpg" alt="" /></a>
+                                        <Link href="/single-news"><Image width={170} height={137} src="images/blog-img3.jpg" alt="" /></Link>
                                     </div>
                                     <div className="recent__content">
                                         <span>04 mar, 2019</span>
-                                        <h4><a href="/single-news">Building clean water system for poor</a></h4>
+                                        <h4><Link href="/single-news">Building clean water system for poor</Link></h4>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><Image width={170} height={137} src="/images/blog-img4.jpg" alt="" /></a>
+                                        <Link href="/single-news"><Image width={170} height={137} src="/images/blog-img4.jpg" alt="" /></Link>
                                     </div>
                                     <div className="recent__content">
                                         <span>30 feb, 2019</span>
-                                        <h4><a href="single-news.html">Become a volunteer you will feel the
-                                            benefits </a></h4>
+                                        <h4><Link href="single-news.html">Become a volunteer you will feel the
+                                            benefits </Link></h4>
                                     </div>
                                 </li>
                             </ul>

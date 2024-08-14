@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const CausesDetail = () => {
     return (
@@ -31,13 +30,13 @@ const CausesDetail = () => {
                                     <p className="causes__text">
                                         There are many variations of passages of Lorem Ipsum available,
                                         but the majority have suffered alteration in some form, by injected humour,
-                                        or randomised words which don't look even slightly believable.
+                                        or randomised words which dont look even slightly believable.
                                         If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                        isn't anything embarrassing hidden in the middle of text.
+                                        isnt anything embarrassing hidden in the middle of text.
                                     </p>
                                     <p className="causes__text causes__text2">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy text
+                                        industry. Lorem Ipsum has been the industry standard dummy text
                                         ever since the 1500s, when an unknown printer took a galley of
                                         type and scrambled it to make a type specimen book. It has survived not
                                         only five centuries, but also the leap into electronic typesetting,
@@ -59,7 +58,7 @@ const CausesDetail = () => {
                                     </div>
                                     <p className="causes__text">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
                                         when an unknown printer took a
                                         galley of type and scrambled it to make a type specimen book
                                     </p>
@@ -76,7 +75,7 @@ const CausesDetail = () => {
                                                 <li>
                                                     <div className="comment">
                                                         <div className="avatar-img">
-                                                            <img className="avatar__img" alt=""
+                                                            <Image className="avatar__img" alt=""
                                                                  src="/images/comment-avatar.jpg" />
                                                         </div>
                                                         <div className="comment-body">
@@ -87,7 +86,7 @@ const CausesDetail = () => {
                                                                 </h4>
                                                             </div>
                                                             <div className="comment-content">
-                                                                <a className="reply__btn theme-btn" href="#">Reply</a>
+                                                                <Link className="reply__btn theme-btn" href="#">Reply</Link>
                                                                 <p className="comment__text">
                                                                     Sending love. My nephews Nick and Anthony Salaber
                                                                     are your teammates,
@@ -100,7 +99,7 @@ const CausesDetail = () => {
                                                     </div>
                                                     <div className="comment">
                                                         <div className="avatar-img">
-                                                            <img className="avatar__img" alt=""
+                                                            <Image className="avatar__img" alt=""
                                                                  src="/images/comment-avatar2.jpg" />
                                                         </div>
                                                         <div className="comment-body">
@@ -111,12 +110,12 @@ const CausesDetail = () => {
                                                                 </h4>
                                                             </div>
                                                             <div className="comment-content">
-                                                                <a className="reply__btn theme-btn" href="#">Reply</a>
+                                                                <Link className="reply__btn theme-btn" href="#">Reply</Link>
                                                                 <p className="comment__text">
-                                                                    You're a champ. Your in my thoughts and prayers
+                                                                    You area champ. Your in my thoughts and prayers
                                                                     every day.
-                                                                    You're the best teammate a bloke could ask for and
-                                                                    we're going to
+                                                                    You arethe best teammate a bloke could ask for and
+                                                                    were going to
                                                                     return the favour my being
                                                                     there for you every step along this journey. Stay
                                                                     strong
@@ -169,7 +168,7 @@ const CausesDetail = () => {
                                     </div>
                                     <div className="author__detail">
                                         <span className="author__meta">created april 11, 2018</span>
-                                        <h4 className="author__title">Organizer: <a href="#">Jessica Smith</a></h4>
+                                        <h4 className="author__title">Organizer: <Link href="#">Jessica Smith</Link></h4>
                                         <ul className="author__list">
                                             <li><i className="fa fa-tag"></i> Education</li>
                                             <li><i className="fa fa-map-marker"></i> Wrightwood, Canada</li>
@@ -231,10 +230,10 @@ const CausesDetail = () => {
                                 <h2 className="widget__title">Share Cause</h2>
                                 <div className="side-share-profile">
                                     <ul>
-                                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                        <li><Link href="#"><i className="fa fa-twitter"></i></Link></li>
+                                        <li><Link href="#"><i className="fa fa-facebook"></i></Link></li>
+                                        <li><Link href="#"><i className="fa fa-pinterest"></i></Link></li>
+                                        <li><Link href="#"><i className="fa fa-instagram"></i></Link></li>
                                     </ul>
                                 </div>
                             </div>

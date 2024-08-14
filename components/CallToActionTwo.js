@@ -1,5 +1,6 @@
 import React from 'react';
-import Image from 'next/image';
+import Link from 'next/link';
+
 
 const CallToActionTwo = () => {
     return (
@@ -9,13 +10,13 @@ const CallToActionTwo = () => {
                     <div className="col-lg-6 col-sm-6">
                         <div className="cta-item cta-item1">
                             <h3 className="cta__title">Sponsor an entire trending project</h3>
-                            <a href="#" className="theme-btn">become an sponsor</a>
+                            <Link href="#" className="theme-btn">become an sponsor</Link>
                         </div>
                     </div>
                     <div className="col-lg-6 col-sm-6">
                         <div className="cta-item cta-item2">
                             <h3 className="cta__title">Take a look a the popular causes</h3>
-                            <a href="#" className="theme-btn">view all causes</a>
+                            <Link href="#" className="theme-btn">view all causes</Link>
                         </div>
                     </div>
                 </div>

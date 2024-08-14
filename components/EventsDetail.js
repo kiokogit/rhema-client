@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Map from "./Map";
+import Link from 'next/link';
 
 const EventsDetail = () => {
     return (
@@ -27,13 +28,13 @@ const EventsDetail = () => {
                                 <p className="event__text">
                                     There are many variations of passages of Lorem Ipsum available,
                                     but the majority have suffered alteration in some form, by injected humour,
-                                    or randomised words which don't look even slightly believable.
+                                    or randomised words which do not look even slightly believable.
                                     If you are going to use a passage of Lorem Ipsum,
-                                    you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                                    you need to be sure there isnt anything embarrassing hidden in the middle of text.
                                 </p>
                                 <p className="event__text">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
                                     when an unknown printer took a galley of type and scrambled it to make a type
                                     specimen book.
                                     It has survived not only five centuries, but also the leap into electronic
@@ -48,7 +49,7 @@ const EventsDetail = () => {
                                 <h3 className="event__title event__title2">Event Requirements</h3>
                                 <p className="event__text">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
                                     when an unknown printer took a galley of type and scrambled it to make a type
                                     specimen book.
                                     It has survived not only five centuries, but also the leap into electronic
@@ -60,7 +61,7 @@ const EventsDetail = () => {
                                 </p>
                             </div>
                             <div className="event-detail-btn">
-                                <a href="#" className="theme-btn">register now</a>
+                                <Link href="#" className="theme-btn">register now</Link>
                             </div>
                         </div>
                     </div>

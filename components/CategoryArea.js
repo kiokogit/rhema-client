@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const CategoryArea = () => {
     return (
@@ -25,7 +26,7 @@ const CategoryArea = () => {
                                         <div className="helping-box helping-box1">
                                             <i className="icon-praying"></i>
                                         </div>
-                                        <h4><a href="#">religion</a></h4>
+                                        <h4><Link href="#">religion</Link></h4>
                                     </div>
                                 </div>
                                 <div className="col">
@@ -33,7 +34,7 @@ const CategoryArea = () => {
                                         <div className="helping-box helping-box2">
                                             <i className="icon-stethoscope"></i>
                                         </div>
-                                        <h4><a href="#">medical</a></h4>
+                                        <h4><Link href="#">medical</Link></h4>
                                     </div>
                                 </div>
                                 <div className="col">
@@ -41,7 +42,7 @@ const CategoryArea = () => {
                                         <div className="helping-box helping-box3">
                                             <i className="icon-family"></i>
                                         </div>
-                                        <h4><a href="#">family</a></h4>
+                                        <h4><Link href="#">family</Link></h4>
                                     </div>
                                 </div>
                                 <div className="col">
@@ -49,7 +50,7 @@ const CategoryArea = () => {
                                         <div className="helping-box helping-box4">
                                             <i className="icon-mortarboard"></i>
                                         </div>
-                                        <h4><a href="#">education</a></h4>
+                                        <h4><Link href="#">education</Link></h4>
                                     </div>
                                 </div>
                                 <div className="col">
@@ -57,7 +58,7 @@ const CategoryArea = () => {
                                         <div className="helping-box helping-box5">
                                             <i className="icon-pet"></i>
                                         </div>
-                                        <h4><a href="#">animals</a></h4>
+                                        <h4><Link href="#">animals</Link></h4>
                                     </div>
                                 </div>
                             </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const EventsHome = () => {
     return (
@@ -28,7 +29,7 @@ const EventsHome = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><a href="/events-detail">Heal the wounds</a></h3>
+                                    <h3 className="blog__title"><Link href="/events-detail">Heal the wounds</Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">10:00am to 4:00pm</li>
                                         <li>Kawangware</li>
@@ -48,7 +49,7 @@ const EventsHome = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><a href="/events-detail">An ear for all</a></h3>
+                                    <h3 className="blog__title"><Link href="/events-detail">An ear for all</Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">9:00am to 7:00pm</li>
                                         <li>Mathare</li>
@@ -68,7 +69,7 @@ const EventsHome = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><a href="/events-detail">Free from hunger</a></h3>
+                                    <h3 className="blog__title"><Link href="/events-detail">Free from hunger</Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 6:00pm</li>
                                         <li>City Market</li>

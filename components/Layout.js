@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Script from 'next/script';
 import Head from 'next/head';
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
@@ -21,8 +21,8 @@ const Layout = (props) => {
             {props.children}
             <Footer />
 
-            <script src="/plugins/accordion.min.js"></script>
-            <script src="/plugins/glightbox.min.js"></script>
+            <Script src="/plugins/accordion.min.js"></Script>
+            <Script src="/plugins/glightbox.min.js"></Script>
 
         </div>
     )

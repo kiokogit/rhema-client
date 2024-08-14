@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 const NewsSingle = () => {
     return (
@@ -15,11 +17,11 @@ const NewsSingle = () => {
                                 </div>
                                 <div className="blog-inner-content">
                                     <div className="inner-causes-box">
-                                        <h3 className="blog__title"><a href="#">Do something crazy to raise money</a>
+                                        <h3 className="blog__title"><Link href="#">Do something crazy to raise money</Link>
                                         </h3>
                                         <ul className="blog__list">
-                                            <li className="blog__dot-active"><a href="#">christine eve</a></li>
-                                            <li><a href="#">2 comments</a></li>
+                                            <li className="blog__dot-active"><Link href="#">christine eve</Link></li>
+                                            <li><Link href="#">2 comments</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -31,14 +33,14 @@ const NewsSingle = () => {
                                         faucibus suspendisse. There are many variations of passages of Lorem Ipsum
                                         available,
                                         but the majority have suffered alteration in some form, by injected humour,
-                                        or randomised words which don't look even slightly believable. If you are going
+                                        or randomised words which do not look even slightly believable. If you are going
                                         to use a passage of Lorem Ipsum,
-                                        you need to be sure there isn't anything embarrassing hidden in the middle of
+                                        you need to be sure there isnt anything embarrassing hidden in the middle of
                                         text.
                                     </p>
                                     <p className="causes__text">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
                                         when an unknown printer took a galley of type and scrambled it to make a type
                                         specimen book. It has survived not only five centuries,
                                         but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -49,7 +51,7 @@ const NewsSingle = () => {
                                     </p>
                                     <p className="causes__text causes__text2">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
                                         when an unknown printer took a galley of type and scrambled it to make a type
                                         specimen book. It has survived not only five centuries,
                                         but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -62,17 +64,17 @@ const NewsSingle = () => {
                                         <div className="news-tag-item-left">
                                     <span className="news-meta-tags">
                                         <span className="news-meta-title">Tags</span>
-                                        <a href="#">Charity</a>
-                                        <a href="#">poor</a>
-                                        <a href="#">love</a>
+                                        <Link href="#">Charity</Link>
+                                        <Link href="#">poor</Link>
+                                        <Link href="#">love</Link>
                                     </span>
                                         </div>
                                         <div className="news-tag-item-right">
                                             <ul className="news-share">
-                                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                                <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                                <li><Link href="#"><i className="fa fa-twitter"></i></Link></li>
+                                                <li><Link href="#"><i className="fa fa-facebook"></i></Link></li>
+                                                <li><Link href="#"><i className="fa fa-pinterest"></i></Link></li>
+                                                <li><Link href="#"><i className="fa fa-instagram"></i></Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -87,7 +89,7 @@ const NewsSingle = () => {
                                                     Cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs
                                                     condmentum
                                                     lightly believable. If you are going
-                                                    to use a of you need to be sure there isn't anything
+                                                    to use a of you need to be sure there isnt anything
                                                     embarrassing.</p>
                                             </div>
                                         </div>
@@ -97,7 +99,7 @@ const NewsSingle = () => {
                                                 <li>
                                                     <div className="comment">
                                                         <div className="avatar-img">
-                                                            <img className="avatar__img" alt=""
+                                                            <Image className="avatar__img" alt=""
                                                                  src="/images/comment-avatar.jpg" />
                                                         </div>
                                                         <div className="comment-body">
@@ -108,7 +110,7 @@ const NewsSingle = () => {
                                                                 </h4>
                                                             </div>
                                                             <div className="comment-content">
-                                                                <a className="reply__btn theme-btn" href="#">Reply</a>
+                                                                <Link className="reply__btn theme-btn" href="#">Reply</Link>
                                                                 <p className="comment__text">
                                                                     Sending love. My nephews Nick and Anthony Salaber
                                                                     are your teammates,
@@ -121,7 +123,7 @@ const NewsSingle = () => {
                                                     </div>
                                                     <div className="comment">
                                                         <div className="avatar-img">
-                                                            <img className="avatar__img" alt=""
+                                                            <Image className="avatar__img" alt=""
                                                                  src="/images/comment-avatar2.jpg" />
                                                         </div>
                                                         <div className="comment-body">
@@ -132,12 +134,12 @@ const NewsSingle = () => {
                                                                 </h4>
                                                             </div>
                                                             <div className="comment-content">
-                                                                <a className="reply__btn theme-btn" href="#">Reply</a>
+                                                                <Link className="reply__btn theme-btn" href="#">Reply</Link>
                                                                 <p className="comment__text">
-                                                                    You're a champ. Your in my thoughts and prayers
+                                                                    You area champ. Your in my thoughts and prayers
                                                                     every day.
-                                                                    You're the best teammate a bloke could ask for and
-                                                                    we're going to
+                                                                    You arethe best teammate a bloke could ask for and
+                                                                    were going to
                                                                     return the favour my being
                                                                     there for you every step along this journey. Stay
                                                                     strong
@@ -201,8 +203,8 @@ const NewsSingle = () => {
                                         <Image width={59} height={59} src="/images/author-avatar5.jpg" alt="" />
                                     </div>
                                     <div className="author__detail">
-                                        <h4 className="author__title author__title2"><a href="/single-news">Learn
-                                            how access to clean water</a></h4>
+                                        <h4 className="author__title author__title2"><Link href="/single-news">Learn
+                                            how access to clean water</Link></h4>
                                     </div>
                                 </div>
                                 <div className="author-box recent-donate-item">
@@ -210,8 +212,8 @@ const NewsSingle = () => {
                                         <Image width={59} height={59} src="/images/author-avatar6.jpg" alt="" />
                                     </div>
                                     <div className="author__detail">
-                                        <h4 className="author__title author__title2"><a href="/single-news">Build
-                                            school for poor childrens</a></h4>
+                                        <h4 className="author__title author__title2"><Link href="/single-news">Build
+                                            school for poor childrens</Link></h4>
                                     </div>
                                 </div>
                                 <div className="author-box recent-donate-item">
@@ -219,8 +221,8 @@ const NewsSingle = () => {
                                         <Image width={59} height={59} src="/images/author-avatar7.jpg" alt="" />
                                     </div>
                                     <div className="author__detail">
-                                        <h4 className="author__title author__title2"><a href="/single-news">Together
-                                            to help the world better</a></h4>
+                                        <h4 className="author__title author__title2"><Link href="/single-news">Together
+                                            to help the world better</Link></h4>
                                     </div>
                                 </div>
                             </div>
@@ -228,14 +230,14 @@ const NewsSingle = () => {
                                 <h2 className="widget__title">Categories</h2>
                                 <div className="side-cats">
                                     <ul>
-                                        <li><a href="#">charity</a></li>
-                                        <li><a href="#">Fundrising</a></li>
-                                        <li><a href="#">Donations</a></li>
-                                        <li><a href="#">Save Lifes</a></li>
-                                        <li><a href="#">Health</a></li>
-                                        <li><a href="#">Education</a></li>
-                                        <li><a href="#">Food</a></li>
-                                        <li><a href="#">Water</a></li>
+                                        <li><Link href="#">charity</Link></li>
+                                        <li><Link href="#">Fundrising</Link></li>
+                                        <li><Link href="#">Donations</Link></li>
+                                        <li><Link href="#">Save Lifes</Link></li>
+                                        <li><Link href="#">Health</Link></li>
+                                        <li><Link href="#">Education</Link></li>
+                                        <li><Link href="#">Food</Link></li>
+                                        <li><Link href="#">Water</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -243,12 +245,12 @@ const NewsSingle = () => {
                                 <h2 className="widget__title">Popular Tags</h2>
                                 <div className="side-tags">
                                     <ul>
-                                        <li><a href="#">charity</a></li>
-                                        <li><a href="#">poor</a></li>
-                                        <li><a href="#">love</a></li>
-                                        <li><a href="#">donations</a></li>
-                                        <li><a href="#">Health</a></li>
-                                        <li><a href="#">save</a></li>
+                                        <li><Link href="#">charity</Link></li>
+                                        <li><Link href="#">poor</Link></li>
+                                        <li><Link href="#">love</Link></li>
+                                        <li><Link href="#">donations</Link></li>
+                                        <li><Link href="#">Health</Link></li>
+                                        <li><Link href="#">save</Link></li>
                                     </ul>
                                 </div>
                             </div>

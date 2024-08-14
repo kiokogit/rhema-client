@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Image from 'next/image';
-import Image from 'next/image';
+import Link from 'next/link';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import Swiper from 'react-id-swiper';
@@ -34,7 +34,7 @@ class MixerArea extends Component {
                                     </div>
                                     <h2 className="section__title text__white">Fundraising for the people and causes you
                                         care about</h2>
-                                    <a href="/donate" className="theme-btn">start donation</a>
+                                    <Link href="/donate" className="theme-btn">start donation</Link>
                                 </div>
                             </div>
                         </div>

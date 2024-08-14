@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Contact = () => {
     return (
@@ -19,10 +20,10 @@ const Contact = () => {
                                 consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
                             </p>
                             <ul className="section__list">
-                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                <li><Link href="#"><i className="fa fa-twitter"></i></Link></li>
+                                <li><Link href="#"><i className="fa fa-facebook"></i></Link></li>
+                                <li><Link href="#"><i className="fa fa-pinterest"></i></Link></li>
+                                <li><Link href="#"><i className="fa fa-instagram"></i></Link></li>
                             </ul>
                         </div>
                     </div>

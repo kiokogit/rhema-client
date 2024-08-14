@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Image from 'next/image';
 import ModalVideo from 'react-modal-video';
+import Link from 'next/link';
+
 
 class MixerAreaThree extends Component {
     constructor(){
@@ -33,7 +35,7 @@ class MixerAreaThree extends Component {
                                      support and counselling groups and many others have come in handy for 
                                      the vulnerable in society.
                                 </p>
-                                <a href="#" className="theme-btn">learn more</a>
+                                <Link href="#" className="theme-btn">learn more</Link>
                             </div>
                         </div>
                         <div className="col-lg-6">

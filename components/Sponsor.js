@@ -21,7 +21,7 @@ const Sponsor = () => {
                                         <p className="sponsor__text">
                                             Phasellus vehicul justo eget diam dosuere sollicitudin eu tincidun.
                                             Lorem Ipsum is simply dummy text of the printing and typesetting
-                                            industry been the industry's standard dummy text ever since.
+                                            industry been the industry standard dummy text ever since.
                                         </p>
                                     </div>
                                 </div>
@@ -41,7 +41,7 @@ const Sponsor = () => {
                                         <p className="sponsor__text">
                                             Phasellus vehicul justo eget diam dosuere sollicitudin eu tincidun.
                                             Lorem Ipsum is simply dummy text of the printing and typesetting
-                                            industry been the industry's standard dummy text ever since.
+                                            industry been the industry standard dummy text ever since.
                                         </p>
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@ const Sponsor = () => {
                                         <p className="sponsor__text">
                                             Phasellus vehicul justo eget diam dosuere sollicitudin eu tincidun.
                                             Lorem Ipsum is simply dummy text of the printing and typesetting
-                                            industry been the industry's standard dummy text ever since.
+                                            industry been the industry standard dummy text ever since.
                                         </p>
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@ const Sponsor = () => {
                                         <p className="sponsor__text">
                                             Phasellus vehicul justo eget diam dosuere sollicitudin eu tincidun.
                                             Lorem Ipsum is simply dummy text of the printing and typesetting
-                                            industry been the industry's standard dummy text ever since.
+                                            industry been the industry standard dummy text ever since.
                                         </p>
                                     </div>
                                 </div>
@@ -101,7 +101,7 @@ const Sponsor = () => {
                                         <p className="sponsor__text">
                                             Phasellus vehicul justo eget diam dosuere sollicitudin eu tincidun.
                                             Lorem Ipsum is simply dummy text of the printing and typesetting
-                                            industry been the industry's standard dummy text ever since.
+                                            industry been the industry standard dummy text ever since.
                                         </p>
                                     </div>
                                 </div>

@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 const Volunteer = () => {
     return (
@@ -40,11 +42,11 @@ const Volunteer = () => {
                                 <div className="contact-us-box">
                                     <div className="contact__item">
                                         <h4>Call us</h4>
-                                        <a href="#">666 888 0000</a>
+                                        <Link href="#">666 888 0000</Link>
                                     </div>
                                     <div className="contact__item contact__item2">
                                         <h4>Send email</h4>
-                                        <a href="#">needhelp@oxpitan.com</a>
+                                        <Link href="#">needhelp@oxpitan.com</Link>
                                     </div>
                                 </div>
                             </div>

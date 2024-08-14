@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 const TeamArea = () => {
     return (
@@ -23,15 +25,15 @@ const TeamArea = () => {
                                 <Image width={270} height={295} src="/images/team.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
-                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                            <li><Link href="#"><i className="fa fa-twitter"></i></Link></li>
+                                            <li><Link href="#"><i className="fa fa-facebook"></i></Link></li>
+                                            <li><Link href="#"><i className="fa fa-pinterest"></i></Link></li>
+                                            <li><Link href="#"><i className="fa fa-instagram"></i></Link></li>
                                         </ul>
                                     </div>
                             </div>
                             <div className="team__title">
-                                <h3 className="team__title-title"><a href="#">S.K. Ole Tipis</a></h3>
+                                <h3 className="team__title-title"><Link href="#">S.K. Ole Tipis</Link></h3>
                                 <span className="team__title-meta">founder & CEO</span>
                             </div>
                         </div>
@@ -42,15 +44,15 @@ const TeamArea = () => {
                                 <Image width={270} height={295} src="/images/team2.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
-                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                            <li><Link href="#"><i className="fa fa-twitter"></i></Link></li>
+                                            <li><Link href="#"><i className="fa fa-facebook"></i></Link></li>
+                                            <li><Link href="#"><i className="fa fa-pinterest"></i></Link></li>
+                                            <li><Link href="#"><i className="fa fa-instagram"></i></Link></li>
                                         </ul>
                                     </div>
                             </div>
                             <div className="team__title">
-                                <h3 className="team__title-title"><a href="#">Dr. Munene joseph</a></h3>
+                                <h3 className="team__title-title"><Link href="#">Dr. Munene joseph</Link></h3>
                                 <span className="team__title-meta">Head - Operations</span>
                             </div>
                         </div>
@@ -61,15 +63,15 @@ const TeamArea = () => {
                                 <Image width={270} height={295} src="/images/team3.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
-                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                            <li><Link href="#"><i className="fa fa-twitter"></i></Link></li>
+                                            <li><Link href="#"><i className="fa fa-facebook"></i></Link></li>
+                                            <li><Link href="#"><i className="fa fa-pinterest"></i></Link></li>
+                                            <li><Link href="#"><i className="fa fa-instagram"></i></Link></li>
                                         </ul>
                                     </div>
                             </div>
                             <div className="team__title">
-                                <h3 className="team__title-title"><a href="#">Christine wambui</a></h3>
+                                <h3 className="team__title-title"><Link href="#">Christine wambui</Link></h3>
                                 <span className="team__title-meta">Head - Programs</span>
                             </div>
                         </div>
@@ -80,15 +82,15 @@ const TeamArea = () => {
                                 <Image width={270} height={295} src="/images/team4.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
-                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                            <li><Link href="#"><i className="fa fa-twitter"></i></Link></li>
+                                            <li><Link href="#"><i className="fa fa-facebook"></i></Link></li>
+                                            <li><Link href="#"><i className="fa fa-pinterest"></i></Link></li>
+                                            <li><Link href="#"><i className="fa fa-instagram"></i></Link></li>
                                         </ul>
                                     </div>
                             </div>
                             <div className="team__title">
-                                <h3 className="team__title-title"><a href="#">James Ng'ang'a</a></h3>
+                                <h3 className="team__title-title"><Link href="#">James Nganga</Link></h3>
                                 <span className="team__title-meta">Head - Donations</span>
                             </div>
                         </div>

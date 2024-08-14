@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Link from 'next/link';
 import Swiper from 'react-id-swiper';
 import 'swiper/css/swiper.css';
 
@@ -30,7 +31,7 @@ const SliderTwo = () => {
                                             <div className="slider-heading">
                                                 <p className="slider__meta">help the people in need</p>
                                                 <h2 className="slider__title">Your help will make the world better</h2>
-                                                <a href="#" className="theme-btn">discover more</a>
+                                                <Link href="#" className="theme-btn">discover more</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -47,7 +48,7 @@ const SliderTwo = () => {
                                             <div className="slider-heading">
                                                 <p className="slider__meta">welcome to Rhema Compassion Org</p>
                                                 <h2 className="slider__title">Lend the helping hand and get involved</h2>
-                                                <a href="#" className="theme-btn">discover more</a>
+                                                <Link href="#" className="theme-btn">discover more</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -64,7 +65,7 @@ const SliderTwo = () => {
                                             <div className="slider-heading">
                                                 <p className="slider__meta">Touch lives everyday</p>
                                                 <h2 className="slider__title">Volunteer in kind and donations</h2>
-                                                <a href="#" className="theme-btn">discover more</a>
+                                                <Link href="#" className="theme-btn">discover more</Link>
                                             </div>
                                         </div>
                                     </div>

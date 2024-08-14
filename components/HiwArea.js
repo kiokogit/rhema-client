@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 const HiwArea = () => {
     return (
@@ -13,7 +15,7 @@ const HiwArea = () => {
                                     <Image width={380} height={492} src="/images/hiw-img.jpg" alt="" />
                                         <h3 className="hiw-title">More charity better lives</h3>
                                         <div className="hiw-btn-box">
-                                            <a href="#" className="theme-btn">read more</a>
+                                            <Link href="#" className="theme-btn">read more</Link>
                                         </div>
                                 </figure>
                             </div>
@@ -26,7 +28,7 @@ const HiwArea = () => {
                                     <Image width={380} height={492} src="/images/hiw-img2.jpg" alt="" />
                                         <h3 className="hiw-title">How to become volunteer</h3>
                                         <div className="hiw-btn-box">
-                                            <a href="#" className="theme-btn">read more</a>
+                                            <Link href="#" className="theme-btn">read more</Link>
                                         </div>
                                 </figure>
                             </div>
@@ -39,7 +41,7 @@ const HiwArea = () => {
                                     <Image width={380} height={492} src="/images/hiw-img3.jpg" alt="" />
                                         <h3 className="hiw-title">Poor children education</h3>
                                         <div className="hiw-btn-box">
-                                            <a href="#" className="theme-btn">read more</a>
+                                            <Link href="#" className="theme-btn">read more</Link>
                                         </div>
                                 </figure>
                             </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const News = () => {
     return (
@@ -18,8 +17,8 @@ const News = () => {
                                 <h3 className="news__content-title"><Link href="single-news"><div>A place where start new
                                     life with peace</div></Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">mike hardson</a></li>
-                                    <li><a href="#">3 comments</a></li>
+                                    <li className="news__content-active__dot"><Link href="#">mike hardson</Link></li>
+                                    <li><Link href="#">3 comments</Link></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
@@ -40,8 +39,8 @@ const News = () => {
                                 <h3 className="news__content-title"><Link href="single-news"><div>We can make a difference
                                     in families lives </div></Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">jessica brown</a></li>
-                                    <li><a href="#">2 comments</a></li>
+                                    <li className="news__content-active__dot"><Link href="#">jessica brown</Link></li>
+                                    <li><Link href="#">2 comments</Link></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
@@ -62,8 +61,8 @@ const News = () => {
                                 <h3 className="news__content-title"><Link href="single-news"><div>Build school for poor
                                     childrens</div></Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">john smith</a></li>
-                                    <li><a href="#">0 comments</a></li>
+                                    <li className="news__content-active__dot"><Link href="#">john smith</Link></li>
+                                    <li><Link href="#">0 comments</Link></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
@@ -84,8 +83,8 @@ const News = () => {
                                 <h3 className="news__content-title"><Link href="single-news"><div>Learn how access to clean
                                     water</div></Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">kevin hart</a></li>
-                                    <li><a href="#">4 comments</a></li>
+                                    <li className="news__content-active__dot"><Link href="#">kevin hart</Link></li>
+                                    <li><Link href="#">4 comments</Link></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
@@ -106,8 +105,8 @@ const News = () => {
                                 <h3 className="news__content-title"><Link href="single-news"><div>Do something crazy to
                                     raise money</div></Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">christine eve</a></li>
-                                    <li><a href="#">2 comments</a></li>
+                                    <li className="news__content-active__dot"><Link href="#">christine eve</Link></li>
+                                    <li><Link href="#">2 comments</Link></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
@@ -128,8 +127,8 @@ const News = () => {
                                 <h3 className="news__content-title"><Link href="single-news"><div>Together to help the
                                     world better</div></Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">mike hardson</a></li>
-                                    <li><a href="#">0 comments</a></li>
+                                    <li className="news__content-active__dot"><Link href="#">mike hardson</Link></li>
+                                    <li><Link href="#">0 comments</Link></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis

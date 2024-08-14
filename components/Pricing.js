@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 const Pricing = () => {
     return (
@@ -46,7 +48,7 @@ const Pricing = () => {
                                             <li>Above mention it</li>
                                             <li>Say once again</li>
                                         </ul>
-                                        <a href="#" className="theme-btn">more</a>
+                                        <Link href="#" className="theme-btn">more</Link>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +68,7 @@ const Pricing = () => {
                                             <li>Above mention it</li>
                                             <li>Say once again</li>
                                         </ul>
-                                        <a href="#" className="theme-btn">more</a>
+                                        <Link href="#" className="theme-btn">more</Link>
                                     </div>
                                 </div>
                             </div>
