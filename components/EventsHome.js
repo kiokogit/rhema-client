@@ -71,7 +71,7 @@ const EventsHome = () => {
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title"><Link href="/events-detail">Free from hunger</Link></h3>
                                     <ul className="blog__list">
-                                        <li className="blog__dot-active">8:00am to 6:00pm</li>
+                                        <li className="blog__dot-active">8:00am to 6:30pm</li>
                                         <li>City Market</li>
                                     </ul>
                                 </div>

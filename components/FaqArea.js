@@ -8,7 +8,6 @@ class FaqArea extends Component {
     }
 
 
-
     render() {
         return (
             <section className="faq-area">
@@ -37,7 +36,7 @@ class FaqArea extends Component {
                                 </div>
 
                                 <div className="ac">
-                                    <h2 className="ac-q" tabIndex="0">Let’s do the right thing now</h2>
+                                    <h2 className="ac-q" tabIndex="0">Lets do the right thing now</h2>
                                     <div className="ac-a">
                                         <p className="accordion__content-desc">Suspendisse finibus urna mauris, vitae consequat quam blandit vel. Vestibulum leo ligula, molestie ullamcorper vulputate vitae sodales commodo nisl. Nulla facilisi. Pellentesque est metus. There are many variations of eration in some form.
                                         </p>

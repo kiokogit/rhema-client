@@ -24,7 +24,7 @@ const EventsDetail = () => {
                     <div className="col-lg-8">
                         <div className="event-detail-content">
                             <div className="event-detail-item">
-                                <h3 className="event__title">Play for the world</h3>
+                                <h3 className="event__title">Skills seminar</h3>
                                 <p className="event__text">
                                     There are many variations of passages of Lorem Ipsum available,
                                     but the majority have suffered alteration in some form, by injected humour,
@@ -75,7 +75,7 @@ const EventsDetail = () => {
                                     <li><span>Category:</span>Health</li>
                                     <li><span>Phone:</span>666 888 0000</li>
                                     <li><span>Website:</span>Info@event.com</li>
-                                    <li><span>Location:</span>8 Street, San Marcos London D29, UK</li>
+                                    <li><span>Location:</span>Kawangware, Nairobi</li>
                                 </ul>
                             </div>
                             <div className="event-detail-item event-detail-item2">

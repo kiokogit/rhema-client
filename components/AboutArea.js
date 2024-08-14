@@ -22,8 +22,8 @@ const AboutArea = () => {
                                 <div className="section-icon">
                                     <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                                 </div>
-                                <h2 className="section__title">Discover About Oxpitan</h2>
-                                <p className="section__meta">learn about non profit agency</p>
+                                <h2 className="section__title">Discover About Rhema Compassion Org</h2>
+                                <p className="section__meta">learn about charity organization</p>
                                 <p className="section__desc">
                                     Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunced amet
                                     ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orcium

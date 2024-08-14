@@ -42,11 +42,11 @@ const Volunteer = () => {
                                 <div className="contact-us-box">
                                     <div className="contact__item">
                                         <h4>Call us</h4>
-                                        <Link href="#">666 888 0000</Link>
+                                        <Link href="#">(+254) 728 495 548</Link>
                                     </div>
                                     <div className="contact__item contact__item2">
                                         <h4>Send email</h4>
-                                        <Link href="#">needhelp@oxpitan.com</Link>
+                                        <Link href="#">rhemacompassionkenya.org@gmail.com</Link>
                                     </div>
                                 </div>
                             </div>

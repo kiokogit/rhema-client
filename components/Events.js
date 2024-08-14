@@ -21,7 +21,7 @@ const Events = () => {
                                     <h3 className="blog__title"><Link href="events-detail"><div>Save the planets</div></Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 2:00pm</li>
-                                        <li>San marcos</li>
+                                        <li>Mathare</li>
                                     </ul>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const Events = () => {
                                     <h3 className="blog__title"><Link href="events-detail"><div>Play for the world</div></Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 2:00pm</li>
-                                        <li>San marcos</li>
+                                        <li>Mathare</li>
                                     </ul>
                                 </div>
                             </div>
@@ -58,10 +58,10 @@ const Events = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="events-detail"><div>Water for charity</div></Link></h3>
+                                    <h3 className="blog__title"><Link href="events-detail"><div>Medical camp Mathare</div></Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 2:00pm</li>
-                                        <li>San marcos</li>
+                                        <li>Mathare</li>
                                     </ul>
                                 </div>
                             </div>
@@ -78,10 +78,10 @@ const Events = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="events-detail"><div>Help for education</div></Link></h3>
+                                    <h3 className="blog__title"><Link href="events-detail"><div>Coding camp</div></Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 2:00pm</li>
-                                        <li>San marcos</li>
+                                        <li>Kawangware</li>
                                     </ul>
                                 </div>
                             </div>
@@ -98,10 +98,10 @@ const Events = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="events-detail"><div>Protect eco system</div></Link></h3>
+                                    <h3 className="blog__title"><Link href="events-detail"><div>Water plant construction</div></Link></h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 2:00pm</li>
-                                        <li>San marcos</li>
+                                        <li>Kibera</li>
                                     </ul>
                                 </div>
                             </div>
@@ -118,11 +118,11 @@ const Events = () => {
                             </span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="events-detail"><div>Fight for right cause</div></Link>
+                                    <h3 className="blog__title"><Link href="events-detail"><div>Work and skills seminar</div></Link>
                                     </h3>
                                     <ul className="blog__list">
                                         <li className="blog__dot-active">8:00am to 2:00pm</li>
-                                        <li>San marcos</li>
+                                        <li>Mathare</li>
                                     </ul>
                                 </div>
                             </div>

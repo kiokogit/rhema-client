@@ -30,7 +30,7 @@ const SliderOne = () => {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="slider-heading">
-                                            <p className="slider__meta">welcome to oxpitan</p>
+                                            <p className="slider__meta">Welcome to Rhema compassion</p>
                                             <h2 className="slider__title">Lend the helping hand get involved</h2>
                                             <Link href="#" className="theme-btn">discover more</Link>
                                         </div>
@@ -47,7 +47,7 @@ const SliderOne = () => {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="slider-heading">
-                                            <p className="slider__meta">welcome to oxpitan</p>
+                                            <p className="slider__meta">Welcome to Rhema compassion</p>
                                             <h2 className="slider__title">Lend the helping hand get involved</h2>
                                             <Link href="#" className="theme-btn">discover more</Link>
                                         </div>
@@ -64,7 +64,7 @@ const SliderOne = () => {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="slider-heading">
-                                            <p className="slider__meta">welcome to oxpitan</p>
+                                            <p className="slider__meta">welcome to rhema compassion</p>
                                             <h2 className="slider__title">Lend the helping hand get involved</h2>
                                             <Link href="#" className="theme-btn">discover more</Link>
                                         </div>

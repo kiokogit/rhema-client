@@ -29,7 +29,7 @@ const SliderTwo = () => {
                                     <div className="row">
                                         <div className="col-lg-8 mx-auto">
                                             <div className="slider-heading">
-                                                <p className="slider__meta">help the people in need</p>
+                                                <p className="slider__meta">Welcome to Rhema Compassion</p>
                                                 <h2 className="slider__title">Your help will make the world better</h2>
                                                 <Link href="#" className="theme-btn">discover more</Link>
                                             </div>
@@ -46,8 +46,8 @@ const SliderTwo = () => {
                                     <div className="row">
                                         <div className="col-lg-8 mx-auto">
                                             <div className="slider-heading">
-                                                <p className="slider__meta">welcome to Rhema Compassion Org</p>
-                                                <h2 className="slider__title">Lend the helping hand and get involved</h2>
+                                                <p className="slider__meta">Help those in need</p>
+                                                <h2 className="slider__title">Lend a helping hand and get involved</h2>
                                                 <Link href="#" className="theme-btn">discover more</Link>
                                             </div>
                                         </div>
@@ -63,7 +63,7 @@ const SliderTwo = () => {
                                     <div className="row">
                                         <div className="col-lg-8 mx-auto">
                                             <div className="slider-heading">
-                                                <p className="slider__meta">Touch lives everyday</p>
+                                                <p className="slider__meta">We Touch lives everyday</p>
                                                 <h2 className="slider__title">Volunteer in kind and donations</h2>
                                                 <Link href="#" className="theme-btn">discover more</Link>
                                             </div>
