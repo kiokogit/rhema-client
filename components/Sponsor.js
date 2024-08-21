@@ -1,5 +1,7 @@
 import React from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
+import Link from 'next/link';
+
 
 const Sponsor = () => {
     return (
@@ -7,6 +9,9 @@ const Sponsor = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
+                        <Link href="/contact"><div className="theme-btn">Become a sponsor</div></Link>
+                    </div>
+                    {/* <div className="col-lg-12">
                         <div className="sponsor-wrap">
                             <div className="row">
                                 <div className="col-lg-3">
@@ -107,7 +112,9 @@ const Sponsor = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+
+                    
                 </div>
             </div>
         </section>

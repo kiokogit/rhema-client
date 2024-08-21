@@ -26,7 +26,7 @@ const HomePageTwo = () => {
     return (
         <Layout pageTitle="Home">
             <SliderTwo />
-            <GiveArea />
+            {/* <GiveArea /> */}
             <ServiceArea />
             <MakeWorldArea />
             <ClientsLogo />

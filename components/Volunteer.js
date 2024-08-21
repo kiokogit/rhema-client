@@ -22,31 +22,41 @@ const Volunteer = () => {
                     <div className="col-lg-6">
                         <div className="form-shared-content">
                             <div className="form-img">
-                                <Image width={570} height={272} src="/images/form-img.jpg" alt="" />
+                                <Image width={570} height={272} src="/images/volunteers.jpg" alt="" />
                             </div>
                             <div className="form-content">
-                                <h3 className="form__title">Requirements</h3>
+                                <h3 className="form__title">Why Volunteer with Rhema?</h3>
                                 <p className="form__desc">
-                                    Aliquam hendrerit a augue insu image pellentes que id erat quis sollicitud null
-                                    mattis Ipsum is simply dummy typesetting industry. Alienum phaedrum torquatos nec
-                                    eu,
-                                    vis detraxit periculis ex, nihil expetendis in meifn pericula euripidis, hinc partem
-                                    ei est.
-                                    Eos ei nisl graecis, aperiri consequat anlorem tincidunt vix at
+                                At Rhema, we're more than just a charity 
+                                organization—we're a community dedicated to making a 
+                                positive impact in the lives of those in need. We believe 
+                                that with the power of compassion and collective effort, 
+                                we can create lasting change. We invite you to become a part of
+                                 our mission by volunteering your time, skills, and resources to
+                                  help us continue our vital work.<br/>
+
+                                By joining our team of volunteers, you'll 
+                                have the opportunity to contribute to meaningful causes, 
+                                connect with like-minded individuals, and make a 
+                                real difference in the lives of many. Whether you're passionate 
+                                about fundraising, event planning, community outreach, 
+                                or simply lending a helping hand, there's a place for you at Rhema
                                 </p>
                                 <ul className="form__list">
-                                    <li><i className="fa fa-check"></i> Eos ei nisl graecis vix aperiri consequat</li>
-                                    <li><i className="fa fa-check"></i> Alienum phaedrum torquatos</li>
-                                    <li><i className="fa fa-check"></i> Dius lorem tincidunt vixat</li>
+                                    <h3 className="form__title">Volunteer Requirements:</h3>
+                                    <li><i className="fa fa-check"></i> A passion for charitable causes and a desire to help others.</li>
+                                    <li><i className="fa fa-check"></i> A commitment to our mission and values.</li>
+                                    <li><i className="fa fa-check"></i> Willingness to dedicate time and effort to volunteer activities.</li>
+                                    <li><i className="fa fa-check"></i> Ability to work well within a team and communicate effectively.</li>
                                 </ul>
                                 <div className="contact-us-box">
-                                    <div className="contact__item">
+                                    <div className="contact__item contact__item2">
                                         <h4>Call us</h4>
-                                        <Link href="#">(+254) 728 495 548</Link>
+                                        <Link href="tel:+254728495548">+254728495548</Link>
                                     </div>
                                     <div className="contact__item contact__item2">
                                         <h4>Send email</h4>
-                                        <Link href="#">rhemacompassionkenya.org@gmail.com</Link>
+                                        <Link href="mailto:rhemacompassionkenya.org@gmail.com">rhemacompassionkenya.org@gmail.com</Link>
                                     </div>
                                 </div>
                             </div>

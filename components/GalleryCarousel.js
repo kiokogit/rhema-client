@@ -75,40 +75,40 @@ const GalleryCarousel = () => {
 
                             <Swiper {...params}>
                                 <div className="gallery-item">
-                                    <Image width={460} height={450} src="/images/gallery-img.jpg" alt="" />
-                                        <Link href="/images/gallery-img.jpg" className="glightbox">
+                                    <Image width={460} height={450} src="/images/gal1.jpeg" alt="" />
+                                        <Link href="/images/gal1.jpeg" className="glightbox">
                                             <span className="gallery-icon"></span></Link>
                                 </div>
                                 <div className="gallery-item">
-                                    <Image width={460} height={450} src="/images/gallery-img2.jpg" alt="" />
-                                        <Link href="/images/gallery-img2.jpg" className="glightbox">
+                                    <Image width={460} height={450} src="/images/gal2.jpeg" alt="" />
+                                        <Link href="/images/gal2.jpeg" className="glightbox">
                                             <span className="gallery-icon"></span></Link>
                                 </div>
                                 <div className="gallery-item">
-                                    <Image width={460} height={450} src="/images/gallery-img3.jpg" alt="" />
-                                        <Link href="/images/gallery-img3.jpg" className="glightbox"> <span className="gallery-icon"></span></Link>
+                                    <Image width={460} height={450} src="/images/gal3.jpeg" alt="" />
+                                        <Link href="/images/gal3.jpeg" className="glightbox"> <span className="gallery-icon"></span></Link>
                                 </div>
                                 <div className="gallery-item">
-                                    <Image width={460} height={450} src="/images/gallery-img.jpg" alt="" />
-                                        <Link href="/images/gallery-img.jpg" className="glightbox">
+                                    <Image width={460} height={450} src="/images/gal4.jpeg" alt="" />
+                                        <Link href="/images/gal4.jpeg" className="glightbox">
                                             <span className="gallery-icon"></span></Link>
                                 </div>
                                 <div className="gallery-item">
-                                    <Image width={460} height={450} src="/images/gallery-img2.jpg" alt="" />
-                                        <Link href="/images/gallery-img2.jpg" className="glightbox"> <span className="gallery-icon"></span></Link>
+                                    <Image width={460} height={450} src="/images/gal5.jpeg" alt="" />
+                                        <Link href="/images/gal5.jpeg" className="glightbox"> <span className="gallery-icon"></span></Link>
                                 </div>
                                 <div className="gallery-item">
-                                    <Image width={460} height={450} src="/images/gallery-img.jpg" alt="" />
-                                        <Link href="/images/gallery-img.jpg" className="glightbox">
+                                    <Image width={460} height={450} src="/images/gal6.jpeg" alt="" />
+                                        <Link href="/images/gal6.jpeg" className="glightbox">
                                             <span className="gallery-icon"></span></Link>
                                 </div>
                                 <div className="gallery-item">
-                                    <Image width={460} height={450} src="/images/gallery-img2.jpg" alt="" />
-                                        <Link href="/images/gallery-img2.jpg" className="glightbox"> <span className="gallery-icon"></span></Link>
+                                    <Image width={460} height={450} src="/images/gal7.jpeg" alt="" />
+                                        <Link href="/images/gal7.jpeg" className="glightbox"> <span className="gallery-icon"></span></Link>
                                 </div>
                                 <div className="gallery-item">
-                                    <Image width={460} height={450} src="/images/gallery-img3.jpg" alt="" />
-                                    <Link href="/images/gallery-img3.jpg" className="glightbox"> <span className="gallery-icon"></span></Link>
+                                    <Image width={460} height={450} src="/images/gal8.jpeg" alt="" />
+                                    <Link href="/images/gal8.jpeg" className="glightbox"> <span className="gallery-icon"></span></Link>
                                 </div>
                             </Swiper>
                         </div>

@@ -45,7 +45,7 @@ const ClientsLogo = () => {
                                 <div className="client-logo-item">
                                     <Image width={123} height={24} src="/images/client-logo.png" alt="brand image" />
                                 </div>
-                                <div className="client-logo-item">
+                                {/* <div className="client-logo-item">
                                     <Image width={123} height={24} src="/images/client-logo.png" alt="brand image" />
                                 </div>
                                 <div className="client-logo-item">
@@ -59,7 +59,7 @@ const ClientsLogo = () => {
                                 </div>
                                 <div className="client-logo-item">
                                     <Image width={123} height={24} src="/images/client-logo.png" alt="brand image" />
-                                </div>
+                                </div> */}
                             </Swiper>
                         </div>
                     </div>

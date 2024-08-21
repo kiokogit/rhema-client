@@ -40,8 +40,8 @@ class MixerAreaThree extends Component {
                         </div>
                         <div className="col-lg-6">
                             <div className="mixer-video-content">
-                                <Image width={570} height={424} src="/images/mixer-img.jpg" alt=""/>
-                                <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='RQu7jpcNUWI'
+                                <Image width={570} height={424} src="/images/channel.png" alt=""/>
+                                <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='jEF4V_890h8'
                                             onClose={() => this.setState({isOpen: false})}/>
                                 <div onClick={this.openModal} className="mfp-iframe video-play-btn" title="Play Video">
                                     <i

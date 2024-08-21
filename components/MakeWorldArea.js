@@ -20,7 +20,7 @@ const MakeWorldArea = () => {
                     <div className="col-lg-4">
                         <div className="world-item">
                             <div className="world-img-box">
-                                <Image width={370} height={365} src="/images/img4.jpg" alt="" />
+                                <Image width={370} height={365} src="/images/happy3.jpeg" alt="" />
                             </div>
                             <div className="world-img-bg world-img-bg1"></div>
                         </div>
@@ -28,7 +28,7 @@ const MakeWorldArea = () => {
                     <div className="col-lg-3">
                         <div className="world-item">
                             <div className="world-img-box">
-                                <Image width={270} height={365} src="/images/img5.jpg" alt="" />
+                                <Image width={270} height={365} src="/images/happy2.jpeg" alt="" />
                             </div>
                             <div className="world-img-bg world-img-bg2"></div>
                         </div>
@@ -36,7 +36,7 @@ const MakeWorldArea = () => {
                     <div className="col-lg-5">
                         <div className="world-item">
                             <div className="world-img-box">
-                                <Image width={470} height={365} src="/images/img6.jpg" alt="" />
+                                <Image width={470} height={365} src="/images/happy1.jpeg" alt="" />
                             </div>
                             <div className="world-img-bg world-img-bg3"></div>
                         </div>

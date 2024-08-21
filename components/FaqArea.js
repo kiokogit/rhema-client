@@ -22,7 +22,7 @@ class FaqArea extends Component {
                                 <p className="section__meta">frequently asked questions</p>
                             </div>
                             <div className="faq-img-box">
-                                <Image width={530} height={278} src="/images/faq-img.jpg" alt="" />
+                                <Image width={530} height={278} src="/images/qsns.jpg" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6">

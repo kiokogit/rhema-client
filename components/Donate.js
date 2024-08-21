@@ -4,12 +4,14 @@ import Link from 'next/link';
 
 
 const Donate = () => {
+    // const paypalLink = "https://www.paypal.com/donate?business=KUH56ALFQRWF2&currency_code=USD";
+    const link2 = "https://www.paypal.com/donate/?hosted_button_id=KUH56ALFQRWF2"
     return (
         <section className="donate-area2">
             <div className="container">
                 <div className="row donate-content-wrap">
                     <div className="col-lg-8">
-                        <div className="donate-item">
+                        {/* <div className="donate-item">
                             <h3 className="donate__title">Enter Your Donation</h3>
                             <div className="form-shared">
                                 <form action="#">
@@ -18,13 +20,13 @@ const Donate = () => {
                                             <div className="yellow-form">
                                                 <input type="number" className="form-control" />
                                                     <span className="dollar-sign">$</span>
-                                                    <span className="number-symble">.00</span>
+                                                    // {/* <span className="number-symble">.00</span>
                                             </div>
                                         </div>
                                     </div>
                                 </form>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="donate-item">
                             <h3 className="donate__title">Personal Info</h3>
                             <div className="form-shared">
@@ -58,7 +60,8 @@ const Donate = () => {
                                         </div>
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="form-group">
-                                                <div className="select-group">
+                                                <input type="text" className="form-control" placeholder="Country" />
+                                                {/* <div className="select-group">
                                                     <select className="select-option">
                                                         <option value="Country">Country</option>
                                                         <option value="usa">Usa</option>
@@ -67,18 +70,49 @@ const Donate = () => {
                                                         <option value="Bangladesh">Bangladesh</option>
                                                         <option value="India">India</option>
                                                     </select>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                         <div className="col-lg-12">
                                             <textarea className="textarea" name="message"
                                                       placeholder="Leave a Comment"></textarea>
                                         </div>
+                                        <div className="col-lg-12">
+                                            {/* <button className="theme-btn submit__btn">Donate via paypal</button> */}
+                                            <div>
+                                                <p>Click the button below to submit details and donate via PayPal.</p>
+                                                <Link className='theme-btn' href={link2} target="_blank" rel="noopener noreferrer">
+                                                <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_150x38.png" alt="Donate via PayPal" 
+                                                    />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-12">
+                                            or use MPESA:
+                                            {/* <button className="theme-btn submit__btn">Donate via paypal</button> */}
+                                            <div>
+                                                <p>--</p>
+                                                <p> Mpesa Till No. : 400200 </p>
+                                               
+                                                {/* Account: 17491 */}
+                                                <p>
+                                                    Bank Account Details
+                                                    Account Name: Rhema Compassion Organization 
+                                                    <br />
+                                                    Bank: Cooperative Bank of Kenya
+                                                    <br />
+                                                    Acc. No. 01134801152800
+                                                    <br/>
+                                                    Swift code: Kcookena
+                                                </p>
+                                                
+                                            </div>
+                                        </div>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <div className="donate-item">
+                        {/* <div className="donate-item">
                             <h3 className="donate__title">Payment Info</h3>
                             <div className="form-shared">
                                 <form action="#">
@@ -130,27 +164,27 @@ const Donate = () => {
                                     </div>
                                 </form>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-lg-4">
                         <div className="sidebar-shared">
                             <div className="side-widget blog-content">
                                 <div className="blog-item">
                                     <div className="blog-img">
-                                        <Image width={370} height={195} src="/images/img15.jpg" alt="" />
+                                        <Image width={370} height={195} src="/images/education for all.jpg" alt="" />
                                     </div>
                                     <div className="blog-inner-content">
                                         <h3 className="blog__title"><Link href="causes-detail"><div>They Want to Study</div></Link>
                                         </h3>
-                                        <ul className="blog__list">
+                                        {/* <ul className="blog__list">
                                             <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                             <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                         </ul>
-                                        <p className="blog__desc">Raised by 25 donors</p>
+                                        <p className="blog__desc">Raised by 25 donors</p> */}
                                     </div>
                                 </div>
                             </div>
-                            <div className="side-widget">
+                            {/* <div className="side-widget">
                                 <div className="author-box">
                                     <div className="author__avatar">
                                         <Image width={59} height={59} src="/images/author-avatar.jpg" alt="" />
@@ -164,7 +198,7 @@ const Donate = () => {
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

@@ -13,11 +13,15 @@ const Contact = () => {
                                 <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">Get in Touch With Us</h2>
-                            <p className="section__meta">Write a message</p>
+                            <p className="section__meta">Write us a message</p>
                             <p className="section__desc">
-                                Aliq is notm hendr erit a augue insu image pellen tes que id erat quis sollicitud.
-                                Lorem ipsum is simply free text dolor sit amet,
-                                consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
+                            We would love to hear from you! Whether you are interested in 
+                            volunteering, partnering with us, or offering support in any form, 
+                            your contribution can make a significant impact. At Rhema Compassion 
+                            Organisation, we believe in the power of community and collaboration. 
+                            If you have questions, ideas, or are a potential sponsor looking to make a
+                             difference, please do not hesitate to reach out. Together, we can continue 
+                             to bring hope and change to those who need it most.
                             </p>
                             <ul className="section__list">
                                 <li><Link href="#"><i className="fa fa-twitter"></i></Link></li>
@@ -63,8 +67,7 @@ const Contact = () => {
                         <div className="contact-item contact-item1">
                             <h3 className="contact__title">About</h3>
                             <p className="contact__desc">
-                                Lorem ipsum is simply free text dolor sit
-                                amet, duise consectetur ullam blandit
+                                Rhema compassion organization
                             </p>
                         </div>
                     </div>
