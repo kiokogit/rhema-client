@@ -31,7 +31,7 @@ const SliderTwo = () => {
                                             <div className="slider-heading">
                                                 <p className="slider__meta">Welcome to Rhema Compassion</p>
                                                 <h2 className="slider__title">Your help will make the world better</h2>
-                                                <Link href="#" className="theme-btn">discover more</Link>
+                                                <Link href="/about" className="theme-btn">discover more</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -48,7 +48,7 @@ const SliderTwo = () => {
                                             <div className="slider-heading">
                                                 <p className="slider__meta">Help those in need</p>
                                                 <h2 className="slider__title">Lend a helping hand and get involved</h2>
-                                                <Link href="#" className="theme-btn">discover more</Link>
+                                                <Link href="/donate" className="theme-btn">discover more</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -65,7 +65,7 @@ const SliderTwo = () => {
                                             <div className="slider-heading">
                                                 <p className="slider__meta">We Touch lives everyday</p>
                                                 <h2 className="slider__title">Volunteer in kind and donations</h2>
-                                                <Link href="#" className="theme-btn">discover more</Link>
+                                                <Link href="/donate" className="theme-btn">discover more</Link>
                                             </div>
                                         </div>
                                     </div>

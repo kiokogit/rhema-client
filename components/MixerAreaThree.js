@@ -27,7 +27,7 @@ class MixerAreaThree extends Component {
                                     <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon"/>
                                 </div>
                                 <h2 className="section__title text__white">We Make a Difference in their Lives</h2>
-                                <p className="section__meta">news and updates</p>
+                                <p className="section__meta">See our youtube channel</p>
                                 <p className="section__desc text__white">
                                     For more than 5 years now, we have made a
                                      difference in many lives across the country. 
@@ -35,7 +35,7 @@ class MixerAreaThree extends Component {
                                      support and counselling groups and many others have come in handy for 
                                      the vulnerable in society.
                                 </p>
-                                <Link href="#" className="theme-btn">learn more</Link>
+                                <Link href="https://www.youtube.com/@RhemaCompassion" target='_blank' className="theme-btn">Proceed to youtube</Link>
                             </div>
                         </div>
                         <div className="col-lg-6">
