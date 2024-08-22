@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Layout from "../components/Layout";
 import Contact from "../components/Contact";
 import Map from "../components/Map";

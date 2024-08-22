@@ -103,34 +103,8 @@ class NavTwo extends Component {
                                             <nav className="main-navigation">
                                                 <ul>
                                                     <li className="active"><Link href="/"><div>Home</div></Link>
-                                                        {/* <ul className="dropdown-menu-item">
-                                                            <li><Link href=""><div>Home 1</div></Link></li>
-                                                            <li><Link href="index2"><div>Home 2</div></Link></li>
-                                                        </ul> */}
                                                     </li>
                                                     <li><Link href="about"><div>about</div></Link></li>
-                                                    {/* <li><Link href="gallery"><div>gallery</div></Link></li> */}
-                                                    {/* <li><Link href="team"><div>our team</div></Link></li> */}
-                
-                                                    {/* <li><Link href="#">causes</Link>
-                                                        <ul className="dropdown-menu-item">
-                                                            <li><Link href="causes"><div>causes</div></Link></li> */}
-                                                            {/* <li><Link href="causes-detail"><div>causes detail</div></Link></li> */}
-                                                            {/* <li><Link href="donate"><div>donate now</div></Link></li> */}
-                                                        {/* </ul> */}
-                                                    {/* </li> */}
-                                                    {/* <li><Link href="events">events</Link> */}
-                                                        {/* <ul className="dropdown-menu-item">
-                                                                <li><Link href="events"><div>events</div></Link></li>
-                                                                <li><Link href="events-detail"><div>events detail</div></Link></li>
-                                                        </ul> */}
-                                                    {/* </li> */}
-                                                    {/* <li><Link href="news">news</Link> */}
-                                                        {/* <ul className="dropdown-menu-item">
-                                                            <li><Link href="news"><div>news</div></Link></li>
-                                                            <li><Link href="single-news"><div>news detail</div></Link></li>
-                                                        </ul> */}
-                                                    {/* </li> */}
                                                     <li><Link href="#">Our Team</Link>
                                                         <ul className="dropdown-menu-item">
                                                             <li><Link href="volunteer"><div>Become a Volunteer</div></Link></li>
@@ -159,45 +133,13 @@ class NavTwo extends Component {
                     </div>
                     <div className="side-menu-wrap">
                         <ul className="side-menu-ul">
-                            <li className="sidenav__item"><Link href="/">home</Link>
+                            <li className="sidenav__item"><Link href="/">home</Link></li>
                             <li className="sidenav__item"><Link href="/about"><div>about</div></Link></li>
-
-                                {/* <span className="menu-plus-icon"></span> */}
-                                {/* <ul className="side-sub-menu">
-                                    <li><Link href=""><div>Home 1</div></Link></li>
-                                    <li><Link href="index2"><div>Home 2</div></Link></li>
-                                </ul> */}
-                            {/* </li>
-                            <li className="sidenav__item"><Link href="#">causes</Link>
-                                <span className="menu-plus-icon"></span>
-                                <ul className="side-sub-menu">
-                                    <li><Link href="causes"><div>causes</div></Link></li> */}
-                                    {/* <li><Link href="causes-detail"><div>causes detail</div></Link></li> */}
-                                    {/* <li><Link href="donate"><div>donate now</div></Link></li>
-                                </ul>
-                            </li> */}
-                            {/* <li className="sidenav__item"><Link href="events">event</Link> */}
-                                {/* <span className="menu-plus-icon"></span> */}
-                                {/* <ul className="side-sub-menu">
-                                    <li><Link href="events"><div>events</div></Link></li>
-                                    <li><Link href="events-detail"><div>events detail</div></Link></li>
-                                </ul> */}
-                            {/* </li> */}
-                            {/* <li className="sidenav__item"><Link href="news">news</Link> */}
-                                {/* <span className="menu-plus-icon"></span>
-                                <ul className="side-sub-menu">
-                                    <li><Link href="news"><div>news</div></Link></li>
-                                    <li><Link href="single-news"><div>news detail</div></Link></li>
-                                </ul> */}
-                            </li>
                             <li className="sidenav__item"><Link href="#">our team</Link>
                                 <span className="menu-plus-icon"></span>
                                 <ul className="side-sub-menu">
                                     <li><Link href="/volunteer"><div>become a volunteer</div></Link></li>
                                     <li><Link href="/sponsor"><div>our sponsors</div></Link></li>
-                                    {/* <li><Link href="volunteer"><div>become a volunteer</div></Link></li>
-                                    <li><Link href="team"><div>our team</div></Link></li>
-                                    <li><Link href="sponsor"><div>sponsors</div></Link></li> */}
                                 </ul>
                             </li>
                             <li className="sidenav__item"><Link href="/contact"><div>contact us</div></Link></li>

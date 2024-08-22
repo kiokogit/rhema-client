@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Layout from "../components/Layout";
 import AboutArea from "../components/AboutArea";
 import MixerAreaTwo from "../components/MixerAreaTwo";

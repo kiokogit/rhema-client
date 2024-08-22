@@ -13,7 +13,7 @@ const CausesArea = () => {
                                 <div className="section-icon">
                                     <Image width={16} height={14} src="/images/section-icon.png" alt="section-icon" />
                                 </div>
-                                <h2 className="section__title">Latest Causes</h2>
+                                <h2 className="section__title">Ongoing Causes</h2>
                                 <p className="section__meta">help us now</p>
                             </div>
                         </div>
@@ -35,11 +35,11 @@ const CausesArea = () => {
                                         <h3 className="blog__title"><Link href="/causes-detail">Provide Medical Help</Link>
                                         </h3>
                                         <p className="blog__desc">Now on Kawangware and Kibera, We are raising funds to provide for medical camps for the children there.</p>
-                                        <ul className="blog__list">
+                                        {/* <ul className="blog__list">
                                             <li><i className="icon-target"></i> Goal: <span>$5,000</span></li>
                                             <li><i className="fa fa-line-chart"></i> Raised: <span>0</span></li>
                                         </ul>
-                                        <Link href="/donate" className="theme-btn">donate now</Link>
+                                        <Link href="/donate" className="theme-btn">donate now</Link> */}
                                     </div>
                                 </div>
                             </div>
@@ -61,11 +61,11 @@ const CausesArea = () => {
                                         <h3 className="blog__title"><Link href="/causes-detail">Learning / Training Camps</Link>
                                         </h3>
                                         <p className="blog__desc">Support project to train 45 youths in best skills, including coding, sewing and car mechanics.</p>
-                                        <ul className="blog__list">
+                                        {/* <ul className="blog__list">
                                             <li><i className="icon-target"></i> Goal: <span>$7,000</span></li>
                                             <li><i className="fa fa-line-chart"></i> Raised: <span>0</span></li>
                                         </ul>
-                                        <Link href="/donate" className="theme-btn">donate now</Link>
+                                        <Link href="/donate" className="theme-btn">donate now</Link> */}
                                     </div>
                                 </div>
                             </div>
@@ -86,11 +86,11 @@ const CausesArea = () => {
                                         <h3 className="blog__title"><Link href="/causes-detail">Sustainable Food Supply</Link></h3>
                                         <p className="blog__desc">With a target of 7 communities each year to help with starting 
                                             sustainable food supply projects.</p>
-                                        <ul className="blog__list">
+                                        {/* <ul className="blog__list">
                                             <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                             <li><i className="fa fa-line-chart"></i> Raised: <span>0</span></li>
                                         </ul>
-                                        <Link href="/donate" className="theme-btn">donate now</Link>
+                                        <Link href="/donate" className="theme-btn">donate now</Link> */}
                                     </div>
                                 </div>
                             </div>

@@ -27,20 +27,20 @@ const Volunteer = () => {
                             <div className="form-content">
                                 <h3 className="form__title">Why Volunteer with Rhema?</h3>
                                 <p className="form__desc">
-                                At Rhema, we're more than just a charity 
-                                organization—we're a community dedicated to making a 
+                                At Rhema, we are more than just a charity 
+                                organization—we are a community dedicated to making a 
                                 positive impact in the lives of those in need. We believe 
                                 that with the power of compassion and collective effort, 
                                 we can create lasting change. We invite you to become a part of
                                  our mission by volunteering your time, skills, and resources to
                                   help us continue our vital work.<br/>
 
-                                By joining our team of volunteers, you'll 
+                                By joining our team of volunteers, you will 
                                 have the opportunity to contribute to meaningful causes, 
                                 connect with like-minded individuals, and make a 
-                                real difference in the lives of many. Whether you're passionate 
+                                real difference in the lives of many. Whether you are passionate 
                                 about fundraising, event planning, community outreach, 
-                                or simply lending a helping hand, there's a place for you at Rhema
+                                or simply lending a helping hand, there is a place for you at Rhema
                                 </p>
                                 <ul className="form__list">
                                     <h3 className="form__title">Volunteer Requirements:</h3>

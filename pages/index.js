@@ -1,26 +1,19 @@
-import React from 'react';
-import Image from 'next/image';
 import Layout from "../components/Layout";
-import NavTwo from "../components/NavBar";
-import Footer from "../components/Footer";
 import SliderTwo from "../components/SliderTwo";
-import GiveArea from "../components/GiveArea";
-import MakeWorldArea from "../components/MakeWorldArea";
-import ClientsLogo from "../components/ClientsLogo";
-import DonateArea from "../components/DonateArea";
-import MixerAreaThree from "../components/MixerAreaThree";
-import CausesArea from "../components/CausesArea";
-import CategoryArea from "../components/CategoryArea";
-import GalleryCarousel from "../components/GalleryCarousel";
-import Pricing from "../components/Pricing";
-import EventsHome from "../components/EventsHome";
-import VolunteerArea from "../components/VolunteerArea";
-import CallToActionThree from "../components/CallToActionThree";
-import ServiceArea from "../components/ServiceArea";
-import HelpingArea from "../components/HelpingArea";
-import TeamArea from "../components/TeamArea";
+// import GiveArea from "../components/GiveArea";
 import CallToAction from "../components/CallToAction";
+import CallToActionThree from "../components/CallToActionThree";
+import CausesArea from "../components/CausesArea";
+import ClientsLogo from "../components/ClientsLogo";
+import EventsHome from "../components/EventsHome";
+import GalleryCarousel from "../components/GalleryCarousel";
+import HelpingArea from "../components/HelpingArea";
+import MakeWorldArea from "../components/MakeWorldArea";
 import Map from "../components/Map";
+import MixerAreaThree from "../components/MixerAreaThree";
+import ServiceArea from "../components/ServiceArea";
+import TeamArea from "../components/TeamArea";
+import VolunteerArea from "../components/VolunteerArea";
 
 const HomePageTwo = () => {
     return (
