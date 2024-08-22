@@ -21,7 +21,7 @@ const GalleryCarousel = () => {
     // });
 
     const params = {
-        slidesPerView : 3,
+        slidesPerView : 2,
         loop: true,
         speed: 1000,
         spaceBetween : 30,
@@ -36,22 +36,22 @@ const GalleryCarousel = () => {
         },
         // Responsive breakpoints
         breakpoints: {
-            1499:{
-                slidesPerView : 3
-            },
+            // 1499:{
+            //     slidesPerView : 1
+            // }
 
-            991:{
-                slidesPerView : 2
-            },
+            // 991:{
+            //     slidesPerView : 1
+            // }
 
-            767:{
-                slidesPerView : 1
+            // 767:{
+            //     slidesPerView : 1
 
-            },
+            // },
 
-            575:{
-                slidesPerView : 1
-            }
+            // 575:{
+            //     slidesPerView : 1
+            // }
         }
     }
 
